@@ -1,432 +1,91 @@
 [
   {
     "dexNo": 1,
-    "name": "Supermarine Spitfire",
-    "manufacturer": "Supermarine",
-    "country": "UK",
-    "roles": ["Fighter"],
+    "name": "Polikarpov I-16",
+    "manufacturer": "Polikarpov",
+    "country": "USSR/Russia",
+    "roles": [
+      "Fighter"
+    ],
     "generation": "WWII",
     "era": "WWII",
-    "yearIntroduced": 1938,
-    "yearDiscontinued": 1955,
+    "yearIntroduced": 1934,
+    "yearDiscontinued": 1943,
     "status": "Retired",
-    "notableConflicts": ["World War II", "Battle of Britain"],
+    "notableConflicts": [
+      "Spanish Civil War",
+      "Winter War",
+      "World War II"
+    ],
     "specs": {
-      "wingspan_m": 11.23,
-      "weight_kg": 2309,
+      "wingspan_m": 9,
+      "weight_kg": 1501,
       "occupants": 1,
-      "maxSpeed_kmh": 595,
-      "range_km": 991,
-      "ceiling_m": 11125,
-      "powerplant": "1× Rolls-Royce Merlin V12",
-      "armament": "8× .303 Browning machine guns"
+      "maxSpeed_kmh": 520,
+      "range_km": 700,
+      "ceiling_m": 9002,
+      "powerplant": "1× Shvetsov M-63 9-cylinder air-cooled radial, 820 hp",
+      "armament": "2× 20mm ShVAK cannon, 2× 7.62mm ShKAS machine guns (Type 24)"
     },
-    "funFact": "Over 20,000 Spitfires were built, and it was the only British fighter produced continuously throughout WWII.",
-    "blurb": "The iconic British single-seat fighter whose elliptical wing and Merlin engine made it a symbol of the Battle of Britain.",
-    "images": ["assets/img/spitfire-1.jpg"]
+    "funFact": "The I-16 was the world's first low-wing cantilever monoplane fighter with retractable undercarriage to reach operational squadron service, a revolutionary design that shocked Western observers when it debuted over Spain in 1936.",
+    "blurb": "The Polikarpov I-16 'Ishak' (Donkey) was a revolutionary aircraft for its time, entering service in 1934 as the world's first modern monoplane fighter with retractable landing gear. Blooded in the Spanish Civil War and Chinese conflicts, it formed the backbone of Soviet fighter aviation at the outbreak of WWII and was one of the fastest aircraft in the world when it first flew.",
+    "images": [
+      "assets/img/polikarpov-i-16-1.jpg"
+    ]
   },
   {
     "dexNo": 2,
-    "name": "Messerschmitt Bf 109",
-    "manufacturer": "Messerschmitt",
+    "name": "Junkers Ju 87 Stuka",
+    "manufacturer": "Junkers",
     "country": "Germany",
-    "roles": ["Fighter"],
+    "roles": [
+      "Ground Attack",
+      "Bomber"
+    ],
     "generation": "WWII",
     "era": "WWII",
-    "yearIntroduced": 1937,
-    "yearDiscontinued": 1958,
+    "yearIntroduced": 1936,
+    "yearDiscontinued": 1945,
     "status": "Retired",
-    "notableConflicts": ["World War II", "Spanish Civil War"],
+    "notableConflicts": [
+      "World War II",
+      "Spanish Civil War",
+      "Battle of France",
+      "Eastern Front"
+    ],
     "specs": {
-      "wingspan_m": 9.92,
-      "weight_kg": 2247,
-      "occupants": 1,
-      "maxSpeed_kmh": 640,
-      "range_km": 850,
-      "ceiling_m": 12000,
-      "powerplant": "1× Daimler-Benz DB 605 V12",
-      "armament": "2× 13mm MG 131, 1× 20mm/30mm cannon"
+      "wingspan_m": 13.8,
+      "weight_kg": 2760,
+      "occupants": 2,
+      "maxSpeed_kmh": 383,
+      "range_km": 550,
+      "ceiling_m": 8000,
+      "powerplant": "1× Junkers Jumo 211D V-12 liquid-cooled, 1,200 hp",
+      "armament": "3× 7.92mm MG 17/MG 81 machine guns; up to 1,800 kg bombs including 1× SC 500 under fuselage (B-2)"
     },
-    "funFact": "With nearly 34,000 built, it is the most-produced fighter aircraft in history.",
-    "blurb": "Germany's principal fighter of WWII, flown by the highest-scoring aces in aviation history.",
-    "images": ["assets/img/bf109-1.jpg"]
+    "funFact": "The Stuka's undercarriage was fitted with wind-driven sirens that produced its terrifying scream during dives — a deliberate psychological weapon designed to break enemy morale that proved enormously effective in 1939–41 campaigns.",
+    "blurb": "The Junkers Ju 87 Stuka was the fearsome symbol of Nazi Blitzkrieg, its wailing siren and near-vertical dive attacks terrorising civilian and military targets across Poland, France, and the Balkans. Although vulnerable to fighter opposition — a fatal weakness exposed during the Battle of Britain — the Stuka continued to inflict devastating anti-tank damage on the Eastern Front, particularly under ace Hans-Ulrich Rudel who flew over 2,500 combat missions in the type.",
+    "images": [
+      "assets/img/junkers-ju-87-stuka-1.jpg"
+    ]
   },
   {
     "dexNo": 3,
-    "name": "F-15 Eagle",
-    "manufacturer": "McDonnell Douglas",
-    "country": "USA",
-    "roles": ["Air Superiority", "Fighter"],
-    "generation": "4th gen",
-    "era": "Cold War",
-    "yearIntroduced": 1976,
-    "yearDiscontinued": null,
-    "status": "In service",
-    "notableConflicts": ["Gulf War", "Operation Iraqi Freedom"],
-    "specs": {
-      "wingspan_m": 13.05,
-      "weight_kg": 12700,
-      "occupants": 1,
-      "maxSpeed_kmh": 3017,
-      "range_km": 5550,
-      "ceiling_m": 20000,
-      "powerplant": "2× Pratt & Whitney F100 turbofans",
-      "armament": "20mm M61 Vulcan, AIM-9, AIM-120"
-    },
-    "funFact": "The F-15 has an air-to-air combat record of over 100 victories with zero losses.",
-    "blurb": "A twin-engine all-weather air-superiority fighter designed to gain and maintain control of the skies.",
-    "images": ["assets/img/f15-1.jpg"]
-  },
-  {
-    "dexNo": 4,
-    "name": "P-38 Lightning",
-    "manufacturer": "Lockheed",
-    "country": "USA",
-    "roles": ["Fighter"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1941,
-    "yearDiscontinued": 1949,
-    "status": "Retired",
-    "notableConflicts": ["World War II"],
-    "specs": {
-      "wingspan_m": 15.85,
-      "weight_kg": 5806,
-      "occupants": 1,
-      "maxSpeed_kmh": 667,
-      "range_km": 3637,
-      "ceiling_m": 13400,
-      "powerplant": "2× Allison V-1710-111/113 turbosupercharged V12, 1,600 hp each",
-      "armament": "1× 20mm Hispano cannon, 4× .50 cal Browning M2 machine guns"
-    },
-    "funFact": "The P-38 was the only American fighter aircraft in production throughout the entire US involvement in WWII, and it was the aircraft in which America's top two aces, Richard Bong and Thomas McGuire, scored all their kills.",
-    "blurb": "Lockheed's distinctive twin-boom, twin-engine fighter was one of the most versatile aircraft of WWII, excelling as a fighter, bomber escort, and reconnaissance platform. Its distinctive silhouette and long range made it the primary American fighter in the Pacific Theater.",
-    "images": ["assets/img/p-38-lightning-1.jpg"]
-  },
-  {
-    "dexNo": 5,
-    "name": "P-47 Thunderbolt",
-    "manufacturer": "Republic Aviation",
-    "country": "USA",
-    "roles": ["Fighter", "Ground Attack"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1942,
-    "yearDiscontinued": 1955,
-    "status": "Retired",
-    "notableConflicts": ["World War II", "Korean War"],
-    "specs": {
-      "wingspan_m": 12.43,
-      "weight_kg": 4536,
-      "occupants": 1,
-      "maxSpeed_kmh": 697,
-      "range_km": 3060,
-      "ceiling_m": 13106,
-      "powerplant": "1× Pratt & Whitney R-2800-59 Double Wasp radial, 2,535 hp",
-      "armament": "8× .50 cal Browning M2 machine guns, up to 1,100 kg bombs"
-    },
-    "funFact": "The P-47 was one of the heaviest single-engine piston fighters of WWII, yet pilots credited its rugged construction with bringing them home after sustaining damage that would have destroyed other aircraft.",
-    "blurb": "The massive Republic P-47 Thunderbolt was one of the main USAAF fighters of WWII, renowned for its toughness and ability to survive battle damage. Originally designed as a high-altitude escort, it evolved into a devastating ground-attack aircraft in the European and Pacific theaters.",
-    "images": ["assets/img/p-47-thunderbolt-1.jpg"]
-  },
-  {
-    "dexNo": 6,
-    "name": "P-51 Mustang",
-    "manufacturer": "North American Aviation",
-    "country": "USA",
-    "roles": ["Fighter"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1942,
-    "yearDiscontinued": 1984,
-    "status": "Retired",
-    "notableConflicts": ["World War II", "Korean War"],
-    "specs": {
-      "wingspan_m": 11.28,
-      "weight_kg": 3465,
-      "occupants": 1,
-      "maxSpeed_kmh": 703,
-      "range_km": 2755,
-      "ceiling_m": 12800,
-      "powerplant": "1× Packard V-1650-7 Merlin V12, 1,490 hp",
-      "armament": "6× .50 cal Browning M2 machine guns"
-    },
-    "funFact": "When paired with drop tanks, the P-51D could escort B-17 bombers all the way to Berlin and back from England, fundamentally changing the strategic bombing campaign over Germany.",
-    "blurb": "Widely considered the finest American fighter of WWII, the P-51 Mustang combined speed, range, and maneuverability in an airframe that could match the best German and Japanese fighters. Its introduction as a long-range escort fighter dramatically reduced bomber losses over Europe.",
-    "images": ["assets/img/p-51-mustang-1.jpg"]
-  },
-  {
-    "dexNo": 7,
-    "name": "F-86 Sabre",
-    "manufacturer": "North American Aviation",
-    "country": "USA",
-    "roles": ["Fighter"],
-    "generation": "1st gen",
-    "era": "Cold War",
-    "yearIntroduced": 1949,
-    "yearDiscontinued": 1994,
-    "status": "Retired",
-    "notableConflicts": ["Korean War"],
-    "specs": {
-      "wingspan_m": 11.31,
-      "weight_kg": 4967,
-      "occupants": 1,
-      "maxSpeed_kmh": 1086,
-      "range_km": 2454,
-      "ceiling_m": 15100,
-      "powerplant": "1× General Electric J47-GE-27 turbojet, 26.3 kN thrust",
-      "armament": "6× .50 cal M3 Browning machine guns"
-    },
-    "funFact": "The F-86 Sabre achieved a kill ratio of approximately 10:1 over the MiG-15 in Korea, though some historians debate these figures as Soviet and Chinese records suggest a ratio closer to 2:1.",
-    "blurb": "America's first swept-wing jet fighter, the F-86 Sabre is best remembered for its legendary duels with the Soviet MiG-15 over 'MiG Alley' during the Korean War. It became the backbone of NATO air defenses throughout the early Cold War and was operated by over 30 nations.",
-    "images": ["assets/img/f-86-sabre-1.jpg"]
-  },
-  {
-    "dexNo": 8,
-    "name": "F-100 Super Sabre",
-    "manufacturer": "North American Aviation",
-    "country": "USA",
-    "roles": ["Fighter", "Ground Attack"],
-    "generation": "2nd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1954,
-    "yearDiscontinued": 1979,
-    "status": "Retired",
-    "notableConflicts": ["Vietnam War"],
-    "specs": {
-      "wingspan_m": 11.82,
-      "weight_kg": 9526,
-      "occupants": 1,
-      "maxSpeed_kmh": 1390,
-      "range_km": 3210,
-      "ceiling_m": 14020,
-      "powerplant": "1× Pratt & Whitney J57-P-21A afterburning turbojet, 75.4 kN thrust",
-      "armament": "4× 20mm M39 cannon, up to 3,400 kg external stores"
-    },
-    "funFact": "The F-100 Super Sabre was the world's first operational supersonic jet fighter capable of level supersonic flight, achieving Mach 1 in level flight on its first flight in May 1953.",
-    "blurb": "The North American F-100 Super Sabre was the first of the USAF's 'Century Series' fighters and the first American aircraft capable of sustained supersonic flight in level flight. It served extensively in Vietnam primarily as a ground-attack aircraft and in the 'Wild Weasel' suppression of enemy air defenses role.",
-    "images": ["assets/img/f-100-super-sabre-1.jpg"]
-  },
-  {
-    "dexNo": 9,
-    "name": "F-104 Starfighter",
-    "manufacturer": "Lockheed",
-    "country": "USA",
-    "roles": ["Interceptor", "Fighter"],
-    "generation": "2nd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1958,
-    "yearDiscontinued": 2004,
-    "status": "Retired",
-    "notableConflicts": ["Vietnam War"],
-    "specs": {
-      "wingspan_m": 6.63,
-      "weight_kg": 6348,
-      "occupants": 1,
-      "maxSpeed_kmh": 2124,
-      "range_km": 1175,
-      "ceiling_m": 17680,
-      "powerplant": "1× General Electric J79-GE-11A afterburning turbojet, 70.3 kN thrust",
-      "armament": "1× 20mm M61A1 Vulcan rotary cannon, AIM-9 Sidewinder missiles"
-    },
-    "funFact": "The F-104 had the smallest wing of any operational fighter jet — just 6.63 m wingspan on a 16.7 m fuselage — giving it such poor low-speed handling that pilots called it 'the missile with a man in it.'",
-    "blurb": "Designed by Kelly Johnson after consultations with Korean War fighter pilots who wanted pure speed, the F-104 Starfighter was a radical departure from conventional fighter design. Its razor-thin, stubby wings gave it outstanding high-altitude speed but also earned it a controversial safety record, particularly in West Germany where it was nicknamed 'the Widowmaker.'",
-    "images": ["assets/img/f-104-starfighter-1.jpg"]
-  },
-  {
-    "dexNo": 10,
-    "name": "F-4 Phantom II",
-    "manufacturer": "McDonnell Douglas",
-    "country": "USA",
-    "roles": ["Multirole", "Fighter"],
-    "generation": "3rd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1960,
-    "yearDiscontinued": 1996,
-    "status": "Retired",
-    "notableConflicts": ["Vietnam War", "Yom Kippur War", "Gulf War"],
-    "specs": {
-      "wingspan_m": 11.77,
-      "weight_kg": 13757,
-      "occupants": 2,
-      "maxSpeed_kmh": 2370,
-      "range_km": 2600,
-      "ceiling_m": 18300,
-      "powerplant": "2× General Electric J79-GE-17A afterburning turbojets, 79.4 kN each",
-      "armament": "1× 20mm M61A1 Vulcan cannon (F-4E), AIM-7 Sparrow, AIM-9 Sidewinder, up to 8,480 kg ordnance"
-    },
-    "funFact": "The F-4 Phantom II was so capable that it served in the air forces of 11 countries, and some nations flew it into the 2010s. It holds the distinction of being the last US aircraft to produce an ace pilot (two MiG kills each needed for a five-kill ace) in Vietnam.",
-    "blurb": "The McDonnell Douglas F-4 Phantom II is one of the most iconic jet fighters ever built, serving the US Navy, Marines, and Air Force simultaneously — a rare achievement. Originally designed without a gun (relying solely on missiles), combat experience in Vietnam proved this to be a serious deficiency, leading to the addition of the M61 cannon in later variants.",
-    "images": ["assets/img/f-4-phantom-ii-1.jpg"]
-  },
-  {
-    "dexNo": 11,
-    "name": "F-14 Tomcat",
-    "manufacturer": "Grumman",
-    "country": "USA",
-    "roles": ["Interceptor", "Fighter"],
-    "generation": "4th gen",
-    "era": "Cold War",
-    "yearIntroduced": 1974,
-    "yearDiscontinued": 2006,
-    "status": "Retired",
-    "notableConflicts": ["Gulf of Sidra Incident", "Gulf War", "Operation Iraqi Freedom"],
-    "specs": {
-      "wingspan_m": 19.54,
-      "weight_kg": 19838,
-      "occupants": 2,
-      "maxSpeed_kmh": 2485,
-      "range_km": 2960,
-      "ceiling_m": 16150,
-      "powerplant": "2× General Electric F110-GE-400 afterburning turbofans, 102.8 kN each",
-      "armament": "1× 20mm M61A1 Vulcan cannon, AIM-54 Phoenix, AIM-7 Sparrow, AIM-9 Sidewinder"
-    },
-    "funFact": "The F-14's AIM-54 Phoenix missile could engage targets at ranges exceeding 190 km, making it the longest-range air-to-air missile ever carried by a US fighter. The Tomcat also gained worldwide fame from the 1986 film Top Gun.",
-    "blurb": "Grumman's swing-wing masterpiece, the F-14 Tomcat was designed to replace the F-4 Phantom as the US Navy's primary fleet defense interceptor. Its variable-geometry wings swept from 20° to 68°, optimizing performance across the entire flight envelope from carrier landing to Mach 2+ intercepts.",
-    "images": ["assets/img/f-14-tomcat-1.jpg"]
-  },
-  {
-    "dexNo": 12,
-    "name": "F-16 Fighting Falcon",
-    "manufacturer": "General Dynamics",
-    "country": "USA",
-    "roles": ["Multirole"],
-    "generation": "4th gen",
-    "era": "Cold War",
-    "yearIntroduced": 1978,
-    "yearDiscontinued": null,
-    "status": "In service",
-    "notableConflicts": ["Gulf War", "Operation Iraqi Freedom", "Operation Enduring Freedom"],
-    "specs": {
-      "wingspan_m": 9.45,
-      "weight_kg": 8573,
-      "occupants": 1,
-      "maxSpeed_kmh": 2120,
-      "range_km": 4220,
-      "ceiling_m": 15240,
-      "powerplant": "1× Pratt & Whitney F100-PW-229 afterburning turbofan, 129.4 kN thrust",
-      "armament": "1× 20mm M61A1 Vulcan cannon, 11 hardpoints for AIM-9, AIM-120, bombs, and other ordnance"
-    },
-    "funFact": "The F-16 was the first operational fighter aircraft to be deliberately designed to be aerodynamically unstable, relying on a fly-by-wire system to remain controllable — a design choice that dramatically improved its maneuverability.",
-    "blurb": "The General Dynamics F-16 Fighting Falcon is the world's most prolific modern jet fighter, with over 4,600 built and operated by 25+ nations. Born from the Lightweight Fighter competition of the 1970s, it set new standards for agility and pilot ergonomics including the reclined seat and side-stick controller.",
-    "images": ["assets/img/f-16-fighting-falcon-1.jpg"]
-  },
-  {
-    "dexNo": 13,
-    "name": "F/A-18 Hornet",
-    "manufacturer": "McDonnell Douglas",
-    "country": "USA",
-    "roles": ["Multirole"],
-    "generation": "4th gen",
-    "era": "Cold War",
-    "yearIntroduced": 1983,
-    "yearDiscontinued": 2023,
-    "status": "Retired",
-    "notableConflicts": ["Gulf War", "Operation Iraqi Freedom", "Operation Enduring Freedom"],
-    "specs": {
-      "wingspan_m": 11.43,
-      "weight_kg": 10455,
-      "occupants": 1,
-      "maxSpeed_kmh": 1814,
-      "range_km": 1065,
-      "ceiling_m": 15240,
-      "powerplant": "2× General Electric F404-GE-402 afterburning turbofans, 79.0 kN each",
-      "armament": "1× 20mm M61A1 Vulcan cannon, AIM-9, AIM-7, AIM-120, AGM-65, JDAM, and other stores"
-    },
-    "funFact": "The F/A-18 Hornet was the first aircraft to transition directly from an air-to-air engagement to an air-to-ground strike mission in a single sortie during the Gulf War, cementing its 'F/A' (Fighter/Attack) designation.",
-    "blurb": "The McDonnell Douglas F/A-18 Hornet was the US Navy and Marine Corps' workhorse multirole aircraft for four decades. Derived from the YF-17 lightweight fighter prototype, it proved remarkably adaptable, serving as the mount for the Blue Angels demonstration team and seeing combat in every major US conflict from Panama to Afghanistan.",
-    "images": ["assets/img/f-a-18-hornet-1.jpg"]
-  },
-  {
-    "dexNo": 14,
-    "name": "A-10 Thunderbolt II",
-    "manufacturer": "Fairchild Republic",
-    "country": "USA",
-    "roles": ["Attack", "Ground Attack"],
-    "generation": "4th gen",
-    "era": "Cold War",
-    "yearIntroduced": 1976,
-    "yearDiscontinued": null,
-    "status": "In service",
-    "notableConflicts": ["Gulf War", "Operation Iraqi Freedom", "Operation Enduring Freedom"],
-    "specs": {
-      "wingspan_m": 17.53,
-      "weight_kg": 11321,
-      "occupants": 1,
-      "maxSpeed_kmh": 833,
-      "range_km": 1287,
-      "ceiling_m": 13716,
-      "powerplant": "2× General Electric TF34-GE-100A turbofans, 40.3 kN each",
-      "armament": "1× 30mm GAU-8/A Avenger 7-barrel rotary cannon, up to 7,260 kg ordnance on 11 hardpoints"
-    },
-    "funFact": "The A-10 was designed around its gun — the GAU-8/A Avenger cannon is so large and powerful that the entire aircraft is essentially built around it, and the recoil from firing is significant enough to slow the aircraft.",
-    "blurb": "The ungainly but beloved 'Warthog' was purpose-built for close air support of ground troops, designed to survive in the extremely hostile environment of low-altitude battlefield operations. Its titanium 'bathtub' cockpit armor, redundant systems, and ability to fly on a single engine have made it legendary for bringing pilots home after taking devastating battle damage.",
-    "images": ["assets/img/a-10-thunderbolt-ii-1.jpg"]
-  },
-  {
-    "dexNo": 15,
-    "name": "F-22 Raptor",
-    "manufacturer": "Lockheed Martin",
-    "country": "USA",
-    "roles": ["Air Superiority", "Fighter"],
-    "generation": "5th gen",
-    "era": "Modern",
-    "yearIntroduced": 2005,
-    "yearDiscontinued": null,
-    "status": "In service",
-    "notableConflicts": ["Operation Inherent Resolve"],
-    "specs": {
-      "wingspan_m": 13.56,
-      "weight_kg": 19700,
-      "occupants": 1,
-      "maxSpeed_kmh": 1960,
-      "range_km": 2960,
-      "ceiling_m": 19812,
-      "powerplant": "2× Pratt & Whitney F119-PW-100 afterburning turbofans, 156 kN each",
-      "armament": "1× 20mm M61A2 Vulcan cannon, AIM-9X Sidewinder, AIM-120 AMRAAM (internal bays)"
-    },
-    "funFact": "The F-22 can supercruise — sustain supersonic flight without afterburner — at Mach 1.82, a capability that allows it to engage and disengage from combat on its own terms, something no previous fighter could do.",
-    "blurb": "The Lockheed Martin F-22 Raptor is the world's first operational fifth-generation stealth air superiority fighter, combining stealth, supercruise, thrust vectoring, and advanced avionics in a way that no adversary can currently match. Only 187 were built due to cost, making it one of the most expensive fighters ever produced.",
-    "images": ["assets/img/f-22-raptor-1.jpg"]
-  },
-  {
-    "dexNo": 16,
-    "name": "F-35 Lightning II",
-    "manufacturer": "Lockheed Martin",
-    "country": "USA",
-    "roles": ["Multirole"],
-    "generation": "5th gen",
-    "era": "Modern",
-    "yearIntroduced": 2015,
-    "yearDiscontinued": null,
-    "status": "In service",
-    "notableConflicts": ["Operation Inherent Resolve"],
-    "specs": {
-      "wingspan_m": 10.67,
-      "weight_kg": 13154,
-      "occupants": 1,
-      "maxSpeed_kmh": 1960,
-      "range_km": 2220,
-      "ceiling_m": 15240,
-      "powerplant": "1× Pratt & Whitney F135-PW-100 afterburning turbofan, 191 kN thrust",
-      "armament": "1× 25mm GAU-22/A rotary cannon (F-35A, internal), AIM-9X, AIM-120, JDAM (internal and external hardpoints)"
-    },
-    "funFact": "The F-35 program is the most expensive weapons system in history, with a projected lifetime cost exceeding $1.7 trillion. The F-35B variant can perform short takeoffs and vertical landings (STOVL), a rare combination at supersonic speeds.",
-    "blurb": "The Lockheed Martin F-35 Lightning II is a family of stealth multirole fighters developed to replace a wide variety of legacy aircraft across the US military and allied nations. Its sensor fusion, stealth, and networking capabilities give it unprecedented situational awareness, making it as much an airborne command node as a fighter.",
-    "images": ["assets/img/f-35-lightning-ii-1.jpg"]
-  },
-  {
-    "dexNo": 17,
     "name": "Hawker Hurricane",
     "manufacturer": "Hawker Aircraft",
     "country": "UK",
-    "roles": ["Fighter"],
+    "roles": [
+      "Fighter"
+    ],
     "generation": "WWII",
     "era": "WWII",
     "yearIntroduced": 1937,
     "yearDiscontinued": 1947,
     "status": "Retired",
-    "notableConflicts": ["World War II", "Battle of Britain"],
+    "notableConflicts": [
+      "World War II",
+      "Battle of Britain"
+    ],
     "specs": {
       "wingspan_m": 12.19,
       "weight_kg": 2606,
@@ -439,20 +98,161 @@
     },
     "funFact": "Although overshadowed by the Spitfire in legend, Hurricanes actually destroyed more enemy aircraft during the Battle of Britain than all other defences combined — claiming over 55% of Luftwaffe losses.",
     "blurb": "The Hawker Hurricane was the RAF's first monoplane fighter and its most numerous aircraft at the outbreak of WWII, playing a decisive role in the Battle of Britain in 1940. Rugged, stable, and easy to repair in the field, it was the workhorse of the RAF's fighter force across every major theatre — from the Western Desert to the Far East.",
-    "images": ["assets/img/hawker-hurricane-1.jpg"]
+    "images": [
+      "assets/img/hawker-hurricane-1.jpg"
+    ]
   },
   {
-    "dexNo": 18,
+    "dexNo": 4,
+    "name": "Messerschmitt Bf 109",
+    "manufacturer": "Messerschmitt",
+    "country": "Germany",
+    "roles": [
+      "Fighter"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1937,
+    "yearDiscontinued": 1958,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II",
+      "Spanish Civil War"
+    ],
+    "specs": {
+      "wingspan_m": 9.92,
+      "weight_kg": 2247,
+      "occupants": 1,
+      "maxSpeed_kmh": 640,
+      "range_km": 850,
+      "ceiling_m": 12000,
+      "powerplant": "1× Daimler-Benz DB 605 V12",
+      "armament": "2× 13mm MG 131, 1× 20mm/30mm cannon"
+    },
+    "funFact": "With nearly 34,000 built, it is the most-produced fighter aircraft in history.",
+    "blurb": "Germany's principal fighter of WWII, flown by the highest-scoring aces in aviation history.",
+    "images": [
+      "assets/img/bf109-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 5,
+    "name": "Supermarine Spitfire",
+    "manufacturer": "Supermarine",
+    "country": "UK",
+    "roles": [
+      "Fighter"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1938,
+    "yearDiscontinued": 1955,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II",
+      "Battle of Britain"
+    ],
+    "specs": {
+      "wingspan_m": 11.23,
+      "weight_kg": 2309,
+      "occupants": 1,
+      "maxSpeed_kmh": 595,
+      "range_km": 991,
+      "ceiling_m": 11125,
+      "powerplant": "1× Rolls-Royce Merlin V12",
+      "armament": "8× .303 Browning machine guns"
+    },
+    "funFact": "Over 20,000 Spitfires were built, and it was the only British fighter produced continuously throughout WWII.",
+    "blurb": "The iconic British single-seat fighter whose elliptical wing and Merlin engine made it a symbol of the Battle of Britain.",
+    "images": [
+      "assets/img/spitfire-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 6,
+    "name": "Dewoitine D.520",
+    "manufacturer": "Dewoitine",
+    "country": "France",
+    "roles": [
+      "Fighter"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1940,
+    "yearDiscontinued": 1953,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II",
+      "Battle of France",
+      "Syrian Campaign"
+    ],
+    "specs": {
+      "wingspan_m": 10.2,
+      "weight_kg": 2092,
+      "occupants": 1,
+      "maxSpeed_kmh": 535,
+      "range_km": 1540,
+      "ceiling_m": 11000,
+      "powerplant": "1× Hispano-Suiza 12Y-45 V-12 liquid-cooled, 935 hp",
+      "armament": "1× 20mm Hispano-Suiza HS.404 cannon, 4× 7.5mm MAC 1934 machine guns"
+    },
+    "funFact": "The Dewoitine D.520 was France's best fighter when Germany invaded in May 1940, and French pilots flying it achieved a 2:1 kill ratio against the Luftwaffe — but fewer than 80 were operational when the campaign began, making it too little too late to change the outcome.",
+    "blurb": "The Dewoitine D.520 was the finest French fighter of World War II and one of the best European fighters of 1940, combining elegant handling with a potent 20mm cannon — a gun-through-the-propeller arrangement years ahead of most contemporaries. Arriving just weeks before France's fall, it fought on under Vichy France and the Free French, serving in some of the most complex loyalties of the entire war.",
+    "images": [
+      "assets/img/dewoitine-d-520-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 7,
+    "name": "Mitsubishi A6M Zero",
+    "manufacturer": "Mitsubishi",
+    "country": "Japan",
+    "roles": [
+      "Fighter"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1940,
+    "yearDiscontinued": 1945,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II",
+      "Attack on Pearl Harbor",
+      "Battle of Midway"
+    ],
+    "specs": {
+      "wingspan_m": 11,
+      "weight_kg": 1876,
+      "occupants": 1,
+      "maxSpeed_kmh": 565,
+      "range_km": 1922,
+      "ceiling_m": 11740,
+      "powerplant": "1× Nakajima NK1C Sakae 12 14-cylinder air-cooled radial, 700 hp",
+      "armament": "2× 7.7mm Type 97 machine guns, 2× 20mm Type 99 cannon, up to 2× 60 kg bombs"
+    },
+    "funFact": "The A6M Zero was so maneuverable it could turn inside any Allied fighter of 1941–42, yet this agility came at the cost of pilot armor and self-sealing fuel tanks — a trade-off that made it catastrophically vulnerable once Allied pilots learned to dive-and-zoom rather than turn-fight.",
+    "blurb": "The Mitsubishi A6M Zero was the Imperial Japanese Navy's primary carrier-borne fighter for much of World War II, shocking Allied pilots with its extraordinary range and agility during Japan's early Pacific conquests. Its legend defined Japanese naval airpower from Pearl Harbor to Midway, but its design philosophy of maximizing performance over protection ultimately proved fatal as Allied aircraft and tactics improved.",
+    "images": [
+      "assets/img/mitsubishi-a6m-zero-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 8,
     "name": "de Havilland Mosquito",
     "manufacturer": "de Havilland",
     "country": "UK",
-    "roles": ["Multirole", "Bomber"],
+    "roles": [
+      "Multirole",
+      "Bomber"
+    ],
     "generation": "WWII",
     "era": "WWII",
     "yearIntroduced": 1941,
     "yearDiscontinued": 1955,
     "status": "Retired",
-    "notableConflicts": ["World War II"],
+    "notableConflicts": [
+      "World War II"
+    ],
     "specs": {
       "wingspan_m": 16.51,
       "weight_kg": 6485,
@@ -465,176 +265,29 @@
     },
     "funFact": "Built almost entirely of wood — including a sandwich of balsa between birch plywood — the Mosquito was so fast when introduced that the RAF initially struggled to find a role for it, since it could outrun virtually every enemy aircraft.",
     "blurb": "The de Havilland Mosquito was one of WWII's most versatile and remarkable aircraft, excelling as a bomber, night fighter, photo-reconnaissance platform, and pathfinder. Its wooden construction, twin Merlin engines, and exceptional performance made it the fastest Allied aircraft for much of the war, enabling precision low-level raids deep into occupied Europe.",
-    "images": ["assets/img/de-havilland-mosquito-1.jpg"]
+    "images": [
+      "assets/img/de-havilland-mosquito-1.jpg"
+    ]
   },
   {
-    "dexNo": 19,
-    "name": "Gloster Meteor",
-    "manufacturer": "Gloster Aircraft Company",
-    "country": "UK",
-    "roles": ["Interceptor", "Fighter"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1944,
-    "yearDiscontinued": 1965,
-    "status": "Retired",
-    "notableConflicts": ["World War II", "Korean War"],
-    "specs": {
-      "wingspan_m": 11.33,
-      "weight_kg": 4820,
-      "occupants": 1,
-      "maxSpeed_kmh": 953,
-      "range_km": 1234,
-      "ceiling_m": 13411,
-      "powerplant": "2× Rolls-Royce Derwent 8 centrifugal turbojets, 16.0 kN each",
-      "armament": "4× 20mm Hispano Mk.V cannon in nose"
-    },
-    "funFact": "The Meteor was the only Allied jet aircraft to see combat in WWII, and it holds a unique record of being the first jet aircraft to achieve an aerial victory — by ramming a V-1 flying bomb when its guns jammed.",
-    "blurb": "The Gloster Meteor was Britain's first operational jet fighter and the only Allied jet to see combat in World War II, used primarily to intercept the V-1 flying bomb menace over southern England. As the most-produced Western jet of the late 1940s, it also served with distinction in the Korean War with Australia's RAAF.",
-    "images": ["assets/img/gloster-meteor-1.jpg"]
-  },
-  {
-    "dexNo": 20,
-    "name": "Hawker Hunter",
-    "manufacturer": "Hawker Aircraft",
-    "country": "UK",
-    "roles": ["Fighter"],
-    "generation": "1st gen",
-    "era": "Cold War",
-    "yearIntroduced": 1954,
-    "yearDiscontinued": 2014,
-    "status": "Retired",
-    "notableConflicts": ["Suez Crisis", "Aden Emergency", "Indo-Pakistani Wars"],
-    "specs": {
-      "wingspan_m": 10.26,
-      "weight_kg": 6405,
-      "occupants": 1,
-      "maxSpeed_kmh": 1150,
-      "range_km": 715,
-      "ceiling_m": 15240,
-      "powerplant": "1× Rolls-Royce Avon 207 turbojet, 45.1 kN thrust",
-      "armament": "4× 30mm ADEN revolver cannon; up to 3,360 kg external stores (FGA.9)"
-    },
-    "funFact": "In October 1953, test pilot Neville Duke set a world air speed record of 1,171 km/h (728 mph) in a Hunter prototype, briefly making it the fastest aircraft in the world.",
-    "blurb": "The Hawker Hunter was the definitive British subsonic jet fighter of the 1950s — elegant, reliable, and widely exported to over 20 nations. Its exceptional handling and powerful cannon armament made it beloved by pilots, and its adaptability saw it serve in strike, trainer, and display roles into the 21st century.",
-    "images": ["assets/img/hawker-hunter-1.jpg"]
-  },
-  {
-    "dexNo": 21,
-    "name": "English Electric Lightning",
-    "manufacturer": "English Electric",
-    "country": "UK",
-    "roles": ["Interceptor", "Fighter"],
-    "generation": "3rd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1960,
-    "yearDiscontinued": 1988,
-    "status": "Retired",
-    "notableConflicts": ["Cold War"],
-    "specs": {
-      "wingspan_m": 10.61,
-      "weight_kg": 12604,
-      "occupants": 1,
-      "maxSpeed_kmh": 2100,
-      "range_km": 1500,
-      "ceiling_m": 18000,
-      "powerplant": "2× Rolls-Royce Avon 301R afterburning turbojets (stacked vertically), 72.8 kN each",
-      "armament": "2× 30mm ADEN cannon; 2× de Havilland Firestreak or Red Top IR missiles"
-    },
-    "funFact": "The Lightning's engines are mounted one above the other in a unique stacked arrangement — a design that made it extraordinarily fast but gave it a notoriously short range, earning it the nickname 'the electric jet' for how quickly it burned through fuel.",
-    "blurb": "The English Electric Lightning was Britain's only indigenous supersonic interceptor and the fastest aircraft the RAF ever operated, capable of climbing to 12,000 m in under three minutes. Its unique stacked-engine layout, Mach 2+ performance, and dramatic vertical climb ability made it a spectacular but fuel-hungry defender of UK airspace throughout the Cold War.",
-    "images": ["assets/img/english-electric-lightning-1.jpg"]
-  },
-  {
-    "dexNo": 22,
-    "name": "Hawker Siddeley Harrier",
-    "manufacturer": "Hawker Siddeley",
-    "country": "UK",
-    "roles": ["Attack", "Multirole"],
-    "generation": "3rd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1969,
-    "yearDiscontinued": 2003,
-    "status": "Retired",
-    "notableConflicts": ["Falklands War"],
-    "specs": {
-      "wingspan_m": 7.70,
-      "weight_kg": 5280,
-      "occupants": 1,
-      "maxSpeed_kmh": 1175,
-      "range_km": 676,
-      "ceiling_m": 15600,
-      "powerplant": "1× Rolls-Royce Pegasus Mk.103 vectored-thrust turbofan, 95.6 kN thrust",
-      "armament": "2× 30mm ADEN cannon pods; AIM-9 Sidewinder, bombs, rockets on underwing pylons"
-    },
-    "funFact": "The Harrier was the world's first operational VTOL jet combat aircraft, and its ability to operate from forest clearings, roads, and ski-jump-equipped carriers fundamentally changed thinking about air power dispersal and survivability.",
-    "blurb": "The Hawker Siddeley Harrier revolutionised military aviation as the world's first truly successful V/STOL combat jet, using a single vectored-thrust engine to take off and land vertically. Its finest hour came during the 1982 Falklands War, where Sea Harriers operating from small carriers in the South Atlantic defeated a modern Argentine air force without losing a single aircraft in air-to-air combat.",
-    "images": ["assets/img/hawker-siddeley-harrier-1.jpg"]
-  },
-  {
-    "dexNo": 23,
-    "name": "Panavia Tornado",
-    "manufacturer": "Panavia Aircraft (UK/Germany/Italy)",
-    "country": "UK",
-    "roles": ["Multirole", "Attack"],
-    "generation": "3rd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1979,
-    "yearDiscontinued": 2019,
-    "status": "Retired",
-    "notableConflicts": ["Gulf War", "Kosovo War", "Operation Enduring Freedom", "Operation Shader"],
-    "specs": {
-      "wingspan_m": 13.91,
-      "weight_kg": 13890,
-      "occupants": 2,
-      "maxSpeed_kmh": 2338,
-      "range_km": 1390,
-      "ceiling_m": 15240,
-      "powerplant": "2× Turbo-Union RB199-34R Mk.103 afterburning turbofans, 76.8 kN each",
-      "armament": "2× 27mm Mauser BK-27 cannon; up to 9,000 kg ordnance including Storm Shadow, Brimstone, Paveway"
-    },
-    "funFact": "The Tornado was the first European combat aircraft designed from the outset for the specific mission of low-level supersonic penetration at night and in all weather — flying below radar cover at treetop height to strike Soviet airfields.",
-    "blurb": "The Panavia Tornado was a landmark multinational European programme developed jointly by the UK, Germany, and Italy, combining a swing-wing design with the ability to sprint at Mach 2.2 or cruise efficiently at low level. It served as the backbone of NATO strike forces from the Gulf War through to its retirement by the RAF in 2019, constantly updated with precision weapons including Storm Shadow cruise missiles.",
-    "images": ["assets/img/panavia-tornado-1.jpg"]
-  },
-  {
-    "dexNo": 24,
-    "name": "Eurofighter Typhoon",
-    "manufacturer": "Eurofighter GmbH (UK/Germany/Italy/Spain)",
-    "country": "UK",
-    "roles": ["Multirole", "Air Superiority"],
-    "generation": "4.5 gen",
-    "era": "Modern",
-    "yearIntroduced": 2003,
-    "yearDiscontinued": null,
-    "status": "In service",
-    "notableConflicts": ["Operation Ellamy (Libya)", "Operation Shader"],
-    "specs": {
-      "wingspan_m": 10.95,
-      "weight_kg": 10995,
-      "occupants": 1,
-      "maxSpeed_kmh": 2125,
-      "range_km": 2900,
-      "ceiling_m": 19812,
-      "powerplant": "2× Eurojet EJ200 afterburning turbofans, 90.0 kN each",
-      "armament": "1× 27mm Mauser BK-27 cannon; AMRAAM, ASRAAM, Meteor, Brimstone, Paveway IV on 13 hardpoints"
-    },
-    "funFact": "The Typhoon can supercruise at up to Mach 1.5 without afterburner, and in a 2008 exercise it defeated the F-22 Raptor in simulated close-range combat — though the F-22's designers argued beyond-visual-range would tell a different story.",
-    "blurb": "The Eurofighter Typhoon is a collaborative 4.5-generation air superiority and multirole fighter built by a four-nation consortium (UK, Germany, Italy, and Spain), combining canard-delta aerodynamics with fly-by-wire instability for extreme agility. Operated by the RAF, Luftwaffe, and eight other air forces, it bridges the gap between Cold War fighters and fifth-generation stealth designs.",
-    "images": ["assets/img/eurofighter-typhoon-1.jpg"]
-  },
-  {
-    "dexNo": 25,
+    "dexNo": 9,
     "name": "Focke-Wulf Fw 190",
     "manufacturer": "Focke-Wulf",
     "country": "Germany",
-    "roles": ["Fighter", "Ground Attack"],
+    "roles": [
+      "Fighter",
+      "Ground Attack"
+    ],
     "generation": "WWII",
     "era": "WWII",
     "yearIntroduced": 1941,
     "yearDiscontinued": 1945,
     "status": "Retired",
-    "notableConflicts": ["World War II", "Battle of Britain", "Eastern Front"],
+    "notableConflicts": [
+      "World War II",
+      "Battle of Britain",
+      "Eastern Front"
+    ],
     "specs": {
       "wingspan_m": 10.51,
       "weight_kg": 3200,
@@ -647,152 +300,31 @@
     },
     "funFact": "When the Fw 190 first appeared over the English Channel in late 1941, it so outclassed the Spitfire Mk.V that the RAF urgently captured an intact example — by accident, when a disoriented German pilot landed at a British airfield.",
     "blurb": "The Focke-Wulf Fw 190 was Germany's premier radial-engine fighter of WWII, and its arrival over France in 1941 shocked the RAF by outperforming the then-standard Spitfire Mk.V in almost every performance metric. Designed by Kurt Tank, it proved extraordinarily adaptable — serving as a pure fighter, fighter-bomber, close-support aircraft, and even torpedo carrier throughout the war.",
-    "images": ["assets/img/focke-wulf-fw-190-1.jpg"]
+    "images": [
+      "assets/img/focke-wulf-fw-190-1.jpg"
+    ]
   },
   {
-    "dexNo": 26,
-    "name": "Messerschmitt Me 262",
-    "manufacturer": "Messerschmitt",
-    "country": "Germany",
-    "roles": ["Interceptor", "Fighter"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1944,
-    "yearDiscontinued": 1945,
-    "status": "Retired",
-    "notableConflicts": ["World War II"],
-    "specs": {
-      "wingspan_m": 12.60,
-      "weight_kg": 3795,
-      "occupants": 1,
-      "maxSpeed_kmh": 900,
-      "range_km": 1050,
-      "ceiling_m": 11450,
-      "powerplant": "2× Junkers Jumo 004B-1 axial-flow turbojets, 8.8 kN each",
-      "armament": "4× 30mm MK 108 cannon in nose; optional R4M rockets"
-    },
-    "funFact": "The Me 262 was approximately 150 km/h faster than the best Allied piston fighters, and Luftwaffe pilots found that Allied aircraft could not catch it in level flight — only diving from altitude above gave Allied pilots any chance of interception.",
-    "blurb": "The Messerschmitt Me 262 Schwalbe ('Swallow') was the world's first operational jet-powered fighter aircraft, entering Luftwaffe service in 1944 and representing a quantum leap in aviation technology. Despite its revolutionary performance advantage, Hitler's insistence on using it as a bomber rather than an interceptor, combined with chronic fuel shortages and pilot training difficulties, prevented it from decisively affecting the war's outcome.",
-    "images": ["assets/img/messerschmitt-me-262-1.jpg"]
-  },
-  {
-    "dexNo": 27,
-    "name": "Messerschmitt Me 163 Komet",
-    "manufacturer": "Messerschmitt",
-    "country": "Germany",
-    "roles": ["Interceptor", "Fighter"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1944,
-    "yearDiscontinued": 1945,
-    "status": "Retired",
-    "notableConflicts": ["World War II"],
-    "specs": {
-      "wingspan_m": 9.30,
-      "weight_kg": 1905,
-      "occupants": 1,
-      "maxSpeed_kmh": 960,
-      "range_km": 100,
-      "ceiling_m": 16500,
-      "powerplant": "1× Walter HWK 509A-2 bi-fuel rocket motor, 16.7 kN thrust",
-      "armament": "2× 30mm MK 108 cannon in wing roots"
-    },
-    "funFact": "The Me 163 was not only the world's first and only operational rocket-powered fighter, but it was also the first piloted aircraft to exceed 1,000 km/h in level flight — a feat so startling that early Allied pilots who reported being attacked by it were initially disbelieved.",
-    "blurb": "The Messerschmitt Me 163 Komet was the most radical fighter of WWII: a tailless rocket-powered interceptor that burned through its entire fuel supply in under eight minutes, then glided back to its base unpowered. Its extreme speed made it nearly impossible for Allied pilots to engage, but its hazardous propellants, violent landing characteristics, and window of vulnerability while gliding made it as dangerous to its own pilots as to the enemy.",
-    "images": ["assets/img/messerschmitt-me-163-komet-1.jpg"]
-  },
-  {
-    "dexNo": 28,
-    "name": "Junkers Ju 87 Stuka",
-    "manufacturer": "Junkers",
-    "country": "Germany",
-    "roles": ["Ground Attack", "Bomber"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1936,
-    "yearDiscontinued": 1945,
-    "status": "Retired",
-    "notableConflicts": ["World War II", "Spanish Civil War", "Battle of France", "Eastern Front"],
-    "specs": {
-      "wingspan_m": 13.80,
-      "weight_kg": 2760,
-      "occupants": 2,
-      "maxSpeed_kmh": 383,
-      "range_km": 550,
-      "ceiling_m": 8000,
-      "powerplant": "1× Junkers Jumo 211D V-12 liquid-cooled, 1,200 hp",
-      "armament": "3× 7.92mm MG 17/MG 81 machine guns; up to 1,800 kg bombs including 1× SC 500 under fuselage (B-2)"
-    },
-    "funFact": "The Stuka's undercarriage was fitted with wind-driven sirens that produced its terrifying scream during dives — a deliberate psychological weapon designed to break enemy morale that proved enormously effective in 1939–41 campaigns.",
-    "blurb": "The Junkers Ju 87 Stuka was the fearsome symbol of Nazi Blitzkrieg, its wailing siren and near-vertical dive attacks terrorising civilian and military targets across Poland, France, and the Balkans. Although vulnerable to fighter opposition — a fatal weakness exposed during the Battle of Britain — the Stuka continued to inflict devastating anti-tank damage on the Eastern Front, particularly under ace Hans-Ulrich Rudel who flew over 2,500 combat missions in the type.",
-    "images": ["assets/img/junkers-ju-87-stuka-1.jpg"]
-  },
-  {
-    "dexNo": 29,
-    "name": "Heinkel He 162",
-    "manufacturer": "Heinkel",
-    "country": "Germany",
-    "roles": ["Interceptor", "Fighter"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1945,
-    "yearDiscontinued": 1945,
-    "status": "Retired",
-    "notableConflicts": ["World War II"],
-    "specs": {
-      "wingspan_m": 7.20,
-      "weight_kg": 1663,
-      "occupants": 1,
-      "maxSpeed_kmh": 840,
-      "range_km": 975,
-      "ceiling_m": 12000,
-      "powerplant": "1× BMW 003E-1 axial-flow turbojet, 7.8 kN thrust",
-      "armament": "2× 20mm MG 151/20 cannon (A-2 variant)"
-    },
-    "funFact": "The He 162 Volksjäger ('People's Fighter') was designed, built, and flown operationally in under 90 days — an almost incomprehensible engineering achievement — yet it was so hastily constructed from wood and metal that early production aircraft suffered structural failures in flight.",
-    "blurb": "The Heinkel He 162 was a desperate last-ditch jet interceptor designed by Germany in late 1944 to be mass-produced using non-strategic materials and flown by Hitler Youth with minimal training. Despite its rushed development and structural problems, the tiny shoulder-mounted jet was genuinely fast and agile, though it arrived far too late and in too few numbers to influence the war's outcome.",
-    "images": ["assets/img/heinkel-he-162-1.jpg"]
-  },
-  {
-    "dexNo": 30,
-    "name": "Polikarpov I-16",
-    "manufacturer": "Polikarpov",
-    "country": "USSR/Russia",
-    "roles": ["Fighter"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1934,
-    "yearDiscontinued": 1943,
-    "status": "Retired",
-    "notableConflicts": ["Spanish Civil War", "Winter War", "World War II"],
-    "specs": {
-      "wingspan_m": 9.00,
-      "weight_kg": 1501,
-      "occupants": 1,
-      "maxSpeed_kmh": 520,
-      "range_km": 700,
-      "ceiling_m": 9002,
-      "powerplant": "1× Shvetsov M-63 9-cylinder air-cooled radial, 820 hp",
-      "armament": "2× 20mm ShVAK cannon, 2× 7.62mm ShKAS machine guns (Type 24)"
-    },
-    "funFact": "The I-16 was the world's first low-wing cantilever monoplane fighter with retractable undercarriage to reach operational squadron service, a revolutionary design that shocked Western observers when it debuted over Spain in 1936.",
-    "blurb": "The Polikarpov I-16 'Ishak' (Donkey) was a revolutionary aircraft for its time, entering service in 1934 as the world's first modern monoplane fighter with retractable landing gear. Blooded in the Spanish Civil War and Chinese conflicts, it formed the backbone of Soviet fighter aviation at the outbreak of WWII and was one of the fastest aircraft in the world when it first flew.",
-    "images": ["assets/img/polikarpov-i-16-1.jpg"]
-  },
-  {
-    "dexNo": 31,
+    "dexNo": 10,
     "name": "Ilyushin Il-2 Sturmovik",
     "manufacturer": "Ilyushin",
     "country": "USSR/Russia",
-    "roles": ["Ground Attack", "Attack"],
+    "roles": [
+      "Ground Attack",
+      "Attack"
+    ],
     "generation": "WWII",
     "era": "WWII",
     "yearIntroduced": 1941,
     "yearDiscontinued": 1954,
     "status": "Retired",
-    "notableConflicts": ["World War II", "Eastern Front", "Battle of Kursk"],
+    "notableConflicts": [
+      "World War II",
+      "Eastern Front",
+      "Battle of Kursk"
+    ],
     "specs": {
-      "wingspan_m": 14.60,
+      "wingspan_m": 14.6,
       "weight_kg": 3400,
       "occupants": 2,
       "maxSpeed_kmh": 425,
@@ -803,358 +335,28 @@
     },
     "funFact": "Stalin called the Il-2 'as essential to the Red Army as air and bread,' and with over 36,000 built it remains the most produced military aircraft in history — more than any other warplane ever made.",
     "blurb": "The Ilyushin Il-2 Sturmovik was the Soviet Union's legendary armoured ground-attack aircraft and the most produced military aircraft in history, with over 36,000 built. Its armour-plated 'flying tank' fuselage made it extraordinarily survivable at low altitudes, and it proved devastatingly effective against German armour on the Eastern Front, particularly at the Battle of Kursk.",
-    "images": ["assets/img/ilyushin-il-2-sturmovik-1.jpg"]
+    "images": [
+      "assets/img/ilyushin-il-2-sturmovik-1.jpg"
+    ]
   },
   {
-    "dexNo": 32,
-    "name": "Yakovlev Yak-3",
-    "manufacturer": "Yakovlev",
-    "country": "USSR/Russia",
-    "roles": ["Fighter"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1944,
-    "yearDiscontinued": 1946,
-    "status": "Retired",
-    "notableConflicts": ["World War II", "Eastern Front"],
-    "specs": {
-      "wingspan_m": 9.20,
-      "weight_kg": 2105,
-      "occupants": 1,
-      "maxSpeed_kmh": 655,
-      "range_km": 650,
-      "ceiling_m": 10700,
-      "powerplant": "1× Klimov VK-105PF-2 V-12 liquid-cooled, 1,300 hp",
-      "armament": "1× 20mm ShVAK cannon, 2× 12.7mm UBS machine guns"
-    },
-    "funFact": "German pilots in the Luftwaffe were ordered to avoid combat below 5,000 metres with the Yak-3, acknowledging that at low and medium altitudes this tiny Soviet fighter was superior to their best aircraft.",
-    "blurb": "The Yakovlev Yak-3 was arguably the best dogfighter on the Eastern Front — one of the smallest and lightest combat fighters of WWII, its exceptional power-to-weight ratio gave it outstanding climb rate and agility. Arriving in 1944, it helped Soviet pilots wrest air superiority from the Luftwaffe during the final campaigns of the war.",
-    "images": ["assets/img/yakovlev-yak-3-1.jpg"]
-  },
-  {
-    "dexNo": 33,
-    "name": "Lavochkin La-5",
-    "manufacturer": "Lavochkin",
-    "country": "USSR/Russia",
-    "roles": ["Fighter"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1942,
-    "yearDiscontinued": 1947,
-    "status": "Retired",
-    "notableConflicts": ["World War II", "Eastern Front", "Battle of Stalingrad", "Battle of Kursk"],
-    "specs": {
-      "wingspan_m": 9.80,
-      "weight_kg": 2706,
-      "occupants": 1,
-      "maxSpeed_kmh": 648,
-      "range_km": 765,
-      "ceiling_m": 11000,
-      "powerplant": "1× Shvetsov M-82FN 14-cylinder air-cooled radial, 1,960 hp",
-      "armament": "2× 20mm ShVAK cannon with 170 rounds each"
-    },
-    "funFact": "The La-5 was rushed into production after the catastrophic Soviet air losses of 1941, and ace Ivan Kozhedub scored the majority of his 64 confirmed kills — the highest tally of any Allied pilot — in the La-5 and its successor the La-7.",
-    "blurb": "The Lavochkin La-5 was a turning point for Soviet aviation, arriving just in time to contest the Luftwaffe's air superiority at Stalingrad in 1942. Converted from the unsuccessful LaGG-3 by replacing its inline engine with a powerful radial, it offered a dramatic performance improvement and gave Soviet pilots a fighter that could match the Bf 109F and G at most altitudes.",
-    "images": ["assets/img/lavochkin-la-5-1.jpg"]
-  },
-  {
-    "dexNo": 34,
-    "name": "MiG-15",
-    "manufacturer": "Mikoyan-Gurevich",
-    "country": "USSR/Russia",
-    "roles": ["Fighter", "Interceptor"],
-    "generation": "1st gen",
-    "era": "Cold War",
-    "yearIntroduced": 1949,
-    "yearDiscontinued": 1990,
-    "status": "Retired",
-    "notableConflicts": ["Korean War"],
-    "specs": {
-      "wingspan_m": 10.08,
-      "weight_kg": 3247,
-      "occupants": 1,
-      "maxSpeed_kmh": 1047,
-      "range_km": 1335,
-      "ceiling_m": 15100,
-      "powerplant": "1× Klimov RD-45 centrifugal-flow turbojet (copy of Rolls-Royce Nene), 22.3 kN thrust",
-      "armament": "2× 23mm NR-23 cannon, 1× 37mm N-37 cannon"
-    },
-    "funFact": "The MiG-15's engine was based on the Rolls-Royce Nene — a technology the British Labour government sold to the USSR in 1947 during a brief period of post-war goodwill, a decision Churchill called 'one of the most grievous errors in our history.'",
-    "blurb": "The MiG-15 shocked the West when it appeared over Korea in November 1950, outperforming every aircraft the UN could field until the arrival of the F-86 Sabre. Built around a British engine design, it became the most produced jet fighter in history with over 18,000 manufactured, and served in over 40 air forces worldwide.",
-    "images": ["assets/img/mig-15-1.jpg"]
-  },
-  {
-    "dexNo": 35,
-    "name": "MiG-17",
-    "manufacturer": "Mikoyan-Gurevich",
-    "country": "USSR/Russia",
-    "roles": ["Fighter"],
-    "generation": "1st gen",
-    "era": "Cold War",
-    "yearIntroduced": 1952,
-    "yearDiscontinued": 1992,
-    "status": "Retired",
-    "notableConflicts": ["Vietnam War", "Six-Day War", "Yom Kippur War"],
-    "specs": {
-      "wingspan_m": 9.63,
-      "weight_kg": 3919,
-      "occupants": 1,
-      "maxSpeed_kmh": 1145,
-      "range_km": 1080,
-      "ceiling_m": 16600,
-      "powerplant": "1× Klimov VK-1F afterburning centrifugal-flow turbojet, 33.8 kN with afterburner",
-      "armament": "1× 37mm N-37 cannon, 2× 23mm NR-23 cannon; rockets or bombs on 2 pylons"
-    },
-    "funFact": "During the Vietnam War, nimble MiG-17s flying without radar repeatedly outmanoeuvred the much more advanced supersonic F-105 Thunderchiefs and F-4 Phantoms in close combat, forcing the US Navy to reopen its Top Gun dogfighting school.",
-    "blurb": "The MiG-17 was an evolutionary improvement on the MiG-15 with a new wing design that conferred much superior handling at high subsonic speeds. Its outstanding agility and heavy cannon armament made it a formidable opponent in close combat during the Vietnam War, where it consistently challenged American aircraft far superior in technology but inferior in turning ability.",
-    "images": ["assets/img/mig-17-1.jpg"]
-  },
-  {
-    "dexNo": 36,
-    "name": "MiG-19",
-    "manufacturer": "Mikoyan-Gurevich",
-    "country": "USSR/Russia",
-    "roles": ["Fighter"],
-    "generation": "2nd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1955,
-    "yearDiscontinued": 1975,
-    "status": "Retired",
-    "notableConflicts": ["Vietnam War", "Indo-Pakistani War of 1965"],
-    "specs": {
-      "wingspan_m": 9.00,
-      "weight_kg": 5172,
-      "occupants": 1,
-      "maxSpeed_kmh": 1452,
-      "range_km": 1390,
-      "ceiling_m": 17500,
-      "powerplant": "2× Tumansky RD-9B afterburning turbojets, 31.8 kN each with afterburner",
-      "armament": "3× 30mm NR-30 cannon; rockets or missiles on 4 pylons"
-    },
-    "funFact": "The MiG-19 was the USSR's first production supersonic fighter, and a Chinese-built copy (the Shenyang J-6/F-6) was manufactured in such vast numbers — over 3,000 — that it served in Pakistan, Egypt, Albania, and North Korea well into the 2000s.",
-    "blurb": "The MiG-19 was the Soviet Union's first twin-engine supersonic fighter, capable of exceeding Mach 1 in level flight and setting a new standard for Soviet jet combat. Although quickly eclipsed by the MiG-21, it saw extensive combat in Chinese and Pakistani hands and was the aircraft that shot down Gary Powers' U-2 spy plane over the USSR in 1960.",
-    "images": ["assets/img/mig-19-1.jpg"]
-  },
-  {
-    "dexNo": 37,
-    "name": "MiG-21",
-    "manufacturer": "Mikoyan-Gurevich",
-    "country": "USSR/Russia",
-    "roles": ["Fighter", "Interceptor"],
-    "generation": "2nd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1959,
-    "yearDiscontinued": null,
-    "status": "In service",
-    "notableConflicts": ["Vietnam War", "Arab-Israeli Wars", "Indo-Pakistani Wars", "Gulf War"],
-    "specs": {
-      "wingspan_m": 7.15,
-      "weight_kg": 5339,
-      "occupants": 1,
-      "maxSpeed_kmh": 2175,
-      "range_km": 793,
-      "ceiling_m": 17800,
-      "powerplant": "1× Tumansky R-25-300 afterburning turbojet, 69.6 kN with afterburner",
-      "armament": "1× 23mm GSh-23L cannon; R-3S, R-60, R-13M missiles on 4 pylons"
-    },
-    "funFact": "The MiG-21 is the most widely produced supersonic jet fighter in history, with over 11,000 built, and has the distinction of serving in more countries than any other combat aircraft — used by over 60 nations across six continents.",
-    "blurb": "The Mikoyan-Gurevich MiG-21 'Fishbed' is the most prolific supersonic fighter ever built, combining a lightweight delta-wing design with Mach 2 performance to create an affordable, widely-exported warplane. Combat experience from Vietnam to the Middle East proved it capable of challenging far more modern aircraft when flown aggressively, and updated variants remain in operational service more than 60 years after its introduction.",
-    "images": ["assets/img/mig-21-1.jpg"]
-  },
-  {
-    "dexNo": 38,
-    "name": "MiG-23",
-    "manufacturer": "Mikoyan-Gurevich",
-    "country": "USSR/Russia",
-    "roles": ["Fighter", "Interceptor"],
-    "generation": "3rd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1970,
-    "yearDiscontinued": 2017,
-    "status": "Retired",
-    "notableConflicts": ["Yom Kippur War", "Gulf War", "Soviet–Afghan War", "Angolan Civil War"],
-    "specs": {
-      "wingspan_m": 13.97,
-      "weight_kg": 10890,
-      "occupants": 1,
-      "maxSpeed_kmh": 2445,
-      "range_km": 1150,
-      "ceiling_m": 18500,
-      "powerplant": "1× Khachaturov R-35-300 afterburning turbojet, 127 kN with afterburner",
-      "armament": "1× 23mm GSh-23L cannon; R-23, R-24, R-60 missiles on 6 pylons"
-    },
-    "funFact": "The MiG-23 featured a variable-geometry wing that could sweep between 16° and 72°, giving it versatility from slow carrier landings to Mach 2.3 high-altitude dashes — though pilots found the handling unpredictable at some intermediate sweep settings.",
-    "blurb": "The MiG-23 'Flogger' was the Soviet Union's first variable-geometry swing-wing combat aircraft, designed to replace the MiG-21 by combining high supersonic performance with better low-speed handling for shorter runways. It became the most widely operated Soviet fighter of the Cold War era, exported to over 20 nations, and saw extensive combat across the Middle East and Africa.",
-    "images": ["assets/img/mig-23-1.jpg"]
-  },
-  {
-    "dexNo": 39,
-    "name": "MiG-25 Foxbat",
-    "manufacturer": "Mikoyan-Gurevich",
-    "country": "USSR/Russia",
-    "roles": ["Interceptor"],
-    "generation": "3rd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1970,
-    "yearDiscontinued": 2013,
-    "status": "Retired",
-    "notableConflicts": ["Yom Kippur War", "Soviet–Afghan War", "Gulf War", "Iran–Iraq War"],
-    "specs": {
-      "wingspan_m": 14.02,
-      "weight_kg": 20000,
-      "occupants": 1,
-      "maxSpeed_kmh": 3000,
-      "range_km": 1860,
-      "ceiling_m": 20700,
-      "powerplant": "2× Soyuz/Tumansky R-15BD-300 afterburning turbojets, 109.8 kN each with afterburner",
-      "armament": "4× R-40 (AA-6 Acrid) air-to-air missiles"
-    },
-    "funFact": "When a MiG-25 pilot defected to Japan in 1976, Western analysts were stunned to find the aircraft was largely built from stainless steel and nickel alloy rather than titanium, and its radar was so powerful it could blind an F-4's radar by transmitting at low altitude.",
-    "blurb": "The MiG-25 Foxbat was the fastest operational combat aircraft ever built, capable of exceeding Mach 2.83 in service and briefly touching Mach 3.2 — fast enough to outrun every NATO interceptor missile of its era. Designed to counter the cancelled XB-70 Valkyrie bomber, it caused a crisis in the West when first spotted by reconnaissance satellites, its massive size and performance leading to hugely inflated estimates of Soviet capability.",
-    "images": ["assets/img/mig-25-foxbat-1.jpg"]
-  },
-  {
-    "dexNo": 40,
-    "name": "MiG-29 Fulcrum",
-    "manufacturer": "Mikoyan",
-    "country": "USSR/Russia",
-    "roles": ["Air Superiority", "Fighter"],
-    "generation": "4th gen",
-    "era": "Cold War",
-    "yearIntroduced": 1983,
-    "yearDiscontinued": null,
-    "status": "In service",
-    "notableConflicts": ["Gulf War", "Kosovo War", "Russo-Georgian War", "Russo-Ukrainian War"],
-    "specs": {
-      "wingspan_m": 11.40,
-      "weight_kg": 11000,
-      "occupants": 1,
-      "maxSpeed_kmh": 2400,
-      "range_km": 1500,
-      "ceiling_m": 18013,
-      "powerplant": "2× Klimov RD-33 afterburning turbofans, 81.4 kN each with afterburner",
-      "armament": "1× 30mm GSh-30-1 cannon; R-27, R-60, R-73 missiles on 7 hardpoints"
-    },
-    "funFact": "The MiG-29 introduced the IRST (infrared search and track) system and helmet-mounted sight that allowed pilots to fire missiles at targets 45° off the nose by simply looking at them — a capability that took the West a decade to match.",
-    "blurb": "The Mikoyan MiG-29 'Fulcrum' was the Soviet answer to the F-16 and F/A-18, a lightweight air superiority fighter designed to contest control of the battlefield airspace over the front lines. Its combination of twin powerful engines, exceptional agility, and advanced off-boresight missile capability made it one of the most formidable dogfighters of the 1980s, and it continues to serve in over 25 air forces today.",
-    "images": ["assets/img/mig-29-fulcrum-1.jpg"]
-  },
-  {
-    "dexNo": 41,
-    "name": "MiG-31 Foxhound",
-    "manufacturer": "Mikoyan",
-    "country": "USSR/Russia",
-    "roles": ["Interceptor"],
-    "generation": "4th gen",
-    "era": "Cold War",
-    "yearIntroduced": 1981,
-    "yearDiscontinued": null,
-    "status": "In service",
-    "notableConflicts": ["Cold War", "Russo-Ukrainian War"],
-    "specs": {
-      "wingspan_m": 13.46,
-      "weight_kg": 21820,
-      "occupants": 2,
-      "maxSpeed_kmh": 3000,
-      "range_km": 2200,
-      "ceiling_m": 20600,
-      "powerplant": "2× Aviadvigatel D-30F6 afterburning turbofans, 151.9 kN each with afterburner",
-      "armament": "1× 23mm GSh-6-23 rotary cannon; 4× R-33 long-range AAMs, 2× R-40T, 4× R-60M missiles"
-    },
-    "funFact": "The MiG-31's Zaslon phased-array radar was the world's first electronically scanned array radar fitted to a production fighter aircraft, capable of tracking 10 targets simultaneously and engaging four — a capability not matched by Western fighters for another decade.",
-    "blurb": "The Mikoyan MiG-31 Foxhound is one of the fastest operational combat aircraft ever built, combining MiG-25 Mach 3 speed with genuine beyond-visual-range combat capability as a dedicated long-range interceptor. Designed to hunt cruise missiles and low-flying bombers across the vast expanse of Soviet airspace, it carries the massive R-33 missile with a 120 km range and remains in Russian service as a carrier for the Kinzhal hypersonic missile.",
-    "images": ["assets/img/mig-31-foxhound-1.jpg"]
-  },
-  {
-    "dexNo": 42,
-    "name": "Su-27 Flanker",
-    "manufacturer": "Sukhoi",
-    "country": "USSR/Russia",
-    "roles": ["Air Superiority", "Fighter"],
-    "generation": "4th gen",
-    "era": "Cold War",
-    "yearIntroduced": 1985,
-    "yearDiscontinued": null,
-    "status": "In service",
-    "notableConflicts": ["Ethiopian–Eritrean War", "Russo-Georgian War", "Syrian Civil War", "Russo-Ukrainian War"],
-    "specs": {
-      "wingspan_m": 14.70,
-      "weight_kg": 16870,
-      "occupants": 1,
-      "maxSpeed_kmh": 2500,
-      "range_km": 3530,
-      "ceiling_m": 18500,
-      "powerplant": "2× Saturn AL-31F afterburning turbofans, 122.6 kN each with afterburner",
-      "armament": "1× 30mm GSh-30-1 cannon; R-27, R-60, R-73 missiles on 10 hardpoints (up to 6,000 kg)"
-    },
-    "funFact": "The Su-27 can perform the 'Pugachev's Cobra' — a dramatic manoeuvre in which the aircraft momentarily pitches to nearly 120° angle of attack before recovering, demonstrating extraordinary aerodynamic stability that no Western fighter of its era could replicate.",
-    "blurb": "The Sukhoi Su-27 Flanker is one of the greatest air superiority fighters ever built, designed specifically to counter the F-15 Eagle and possessing comparable or superior performance in most metrics. Its combination of exceptional range, 10 missile hardpoints, powerful engines, and supermaneuverability made it the cornerstone of Soviet and Russian air defence, spawning an enormous family of derivatives that remains central to Russian air power today.",
-    "images": ["assets/img/su-27-flanker-1.jpg"]
-  },
-  {
-    "dexNo": 43,
-    "name": "Su-57 Felon",
-    "manufacturer": "Sukhoi",
-    "country": "USSR/Russia",
-    "roles": ["Air Superiority", "Multirole"],
-    "generation": "5th gen",
-    "era": "Modern",
-    "yearIntroduced": 2020,
-    "yearDiscontinued": null,
-    "status": "In service",
-    "notableConflicts": ["Syrian Civil War", "Russo-Ukrainian War"],
-    "specs": {
-      "wingspan_m": 14.10,
-      "weight_kg": 18500,
-      "occupants": 1,
-      "maxSpeed_kmh": 2135,
-      "range_km": 3500,
-      "ceiling_m": 20000,
-      "powerplant": "2× Saturn AL-41F1 afterburning turbofans, 147.1 kN each with afterburner",
-      "armament": "1× 30mm GSh-30-1 cannon; R-77M, R-74M2, Kh-38M, Kh-59MK2 on 12 hardpoints (6 internal, 6 external)"
-    },
-    "funFact": "The Su-57 is capable of supercruise at Mach 1.3 without afterburner and features a unique three-dimensional thrust-vectoring system on both engines, giving it a level of post-stall maneuverability that rivals — and in some regimes exceeds — the F-22 Raptor.",
-    "blurb": "The Sukhoi Su-57 Felon is Russia's first fifth-generation stealth multirole fighter, combining reduced radar cross-section, supercruise, thrust vectoring, and an internal weapons bay. Developed over two decades to compete with the F-22 and F-35, it entered limited service in 2020 and has seen combat in Ukraine, though production numbers remain modest compared to Western equivalents.",
-    "images": ["assets/img/su-57-felon-1.jpg"]
-  },
-  {
-    "dexNo": 44,
-    "name": "Mitsubishi A6M Zero",
-    "manufacturer": "Mitsubishi",
-    "country": "Japan",
-    "roles": ["Fighter"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1940,
-    "yearDiscontinued": 1945,
-    "status": "Retired",
-    "notableConflicts": ["World War II", "Attack on Pearl Harbor", "Battle of Midway"],
-    "specs": {
-      "wingspan_m": 11.00,
-      "weight_kg": 1876,
-      "occupants": 1,
-      "maxSpeed_kmh": 565,
-      "range_km": 1922,
-      "ceiling_m": 11740,
-      "powerplant": "1× Nakajima NK1C Sakae 12 14-cylinder air-cooled radial, 700 hp",
-      "armament": "2× 7.7mm Type 97 machine guns, 2× 20mm Type 99 cannon, up to 2× 60 kg bombs"
-    },
-    "funFact": "The A6M Zero was so maneuverable it could turn inside any Allied fighter of 1941–42, yet this agility came at the cost of pilot armor and self-sealing fuel tanks — a trade-off that made it catastrophically vulnerable once Allied pilots learned to dive-and-zoom rather than turn-fight.",
-    "blurb": "The Mitsubishi A6M Zero was the Imperial Japanese Navy's primary carrier-borne fighter for much of World War II, shocking Allied pilots with its extraordinary range and agility during Japan's early Pacific conquests. Its legend defined Japanese naval airpower from Pearl Harbor to Midway, but its design philosophy of maximizing performance over protection ultimately proved fatal as Allied aircraft and tactics improved.",
-    "images": ["assets/img/mitsubishi-a6m-zero-1.jpg"]
-  },
-  {
-    "dexNo": 45,
+    "dexNo": 11,
     "name": "Nakajima Ki-43 Hayabusa",
     "manufacturer": "Nakajima",
     "country": "Japan",
-    "roles": ["Fighter"],
+    "roles": [
+      "Fighter"
+    ],
     "generation": "WWII",
     "era": "WWII",
     "yearIntroduced": 1941,
     "yearDiscontinued": 1945,
     "status": "Retired",
-    "notableConflicts": ["World War II", "Burma Campaign", "Pacific War"],
+    "notableConflicts": [
+      "World War II",
+      "Burma Campaign",
+      "Pacific War"
+    ],
     "specs": {
       "wingspan_m": 10.84,
       "weight_kg": 1910,
@@ -1167,22 +369,62 @@
     },
     "funFact": "The Ki-43's 'butterfly combat flaps' — small maneuver flaps unique to the design — could be deployed in combat to dramatically tighten the turning radius, allowing it to out-turn virtually any Allied fighter it encountered.",
     "blurb": "The Nakajima Ki-43 Hayabusa ('Peregrine Falcon') was the Imperial Japanese Army's most numerous fighter throughout the Pacific War, flown by top aces in every theatre from China to New Guinea. Often called the 'Army Zero' by Allied pilots for its similar silhouette and extreme maneuverability, it sacrificed armor and firepower for agility — a trade-off that cost many pilots their lives against late-war Allied fighters.",
-    "images": ["assets/img/nakajima-ki-43-hayabusa-1.jpg"]
+    "images": [
+      "assets/img/nakajima-ki-43-hayabusa-1.jpg"
+    ]
   },
   {
-    "dexNo": 46,
+    "dexNo": 12,
+    "name": "P-38 Lightning",
+    "manufacturer": "Lockheed",
+    "country": "USA",
+    "roles": [
+      "Fighter"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1941,
+    "yearDiscontinued": 1949,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II"
+    ],
+    "specs": {
+      "wingspan_m": 15.85,
+      "weight_kg": 5806,
+      "occupants": 1,
+      "maxSpeed_kmh": 667,
+      "range_km": 3637,
+      "ceiling_m": 13400,
+      "powerplant": "2× Allison V-1710-111/113 turbosupercharged V12, 1,600 hp each",
+      "armament": "1× 20mm Hispano cannon, 4× .50 cal Browning M2 machine guns"
+    },
+    "funFact": "The P-38 was the only American fighter aircraft in production throughout the entire US involvement in WWII, and it was the aircraft in which America's top two aces, Richard Bong and Thomas McGuire, scored all their kills.",
+    "blurb": "Lockheed's distinctive twin-boom, twin-engine fighter was one of the most versatile aircraft of WWII, excelling as a fighter, bomber escort, and reconnaissance platform. Its distinctive silhouette and long range made it the primary American fighter in the Pacific Theater.",
+    "images": [
+      "assets/img/p-38-lightning-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 13,
     "name": "Kawasaki Ki-61 Hien",
     "manufacturer": "Kawasaki",
     "country": "Japan",
-    "roles": ["Fighter"],
+    "roles": [
+      "Fighter"
+    ],
     "generation": "WWII",
     "era": "WWII",
     "yearIntroduced": 1942,
     "yearDiscontinued": 1945,
     "status": "Retired",
-    "notableConflicts": ["World War II", "Defense of the Home Islands", "Pacific War"],
+    "notableConflicts": [
+      "World War II",
+      "Defense of the Home Islands",
+      "Pacific War"
+    ],
     "specs": {
-      "wingspan_m": 12.00,
+      "wingspan_m": 12,
       "weight_kg": 2630,
       "occupants": 1,
       "maxSpeed_kmh": 592,
@@ -1193,22 +435,65 @@
     },
     "funFact": "The Ki-61 Hien was the only mass-produced Japanese fighter of World War II to use a liquid-cooled inline engine — a German-derived Daimler-Benz DB 601 copy — giving it a distinctive narrow-nosed appearance so unlike other Japanese aircraft that Allied pilots initially reported they were fighting German Bf 109s over the Pacific.",
     "blurb": "The Kawasaki Ki-61 Hien ('Flying Swallow') was Japan's sole liquid-cooled-engine fighter in mass production during WWII, combining reasonable speed and firepower with the self-sealing fuel tanks and pilot armor that other Japanese fighters lacked. Its unusual engine gave Allied intelligence fits at first, but chronic reliability problems with the powerplant limited the Hien's effectiveness throughout its service life.",
-    "images": ["assets/img/kawasaki-ki-61-hien-1.jpg"]
+    "images": [
+      "assets/img/kawasaki-ki-61-hien-1.jpg"
+    ]
   },
   {
-    "dexNo": 47,
+    "dexNo": 14,
+    "name": "Lavochkin La-5",
+    "manufacturer": "Lavochkin",
+    "country": "USSR/Russia",
+    "roles": [
+      "Fighter"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1942,
+    "yearDiscontinued": 1947,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II",
+      "Eastern Front",
+      "Battle of Stalingrad",
+      "Battle of Kursk"
+    ],
+    "specs": {
+      "wingspan_m": 9.8,
+      "weight_kg": 2706,
+      "occupants": 1,
+      "maxSpeed_kmh": 648,
+      "range_km": 765,
+      "ceiling_m": 11000,
+      "powerplant": "1× Shvetsov M-82FN 14-cylinder air-cooled radial, 1,960 hp",
+      "armament": "2× 20mm ShVAK cannon with 170 rounds each"
+    },
+    "funFact": "The La-5 was rushed into production after the catastrophic Soviet air losses of 1941, and ace Ivan Kozhedub scored the majority of his 64 confirmed kills — the highest tally of any Allied pilot — in the La-5 and its successor the La-7.",
+    "blurb": "The Lavochkin La-5 was a turning point for Soviet aviation, arriving just in time to contest the Luftwaffe's air superiority at Stalingrad in 1942. Converted from the unsuccessful LaGG-3 by replacing its inline engine with a powerful radial, it offered a dramatic performance improvement and gave Soviet pilots a fighter that could match the Bf 109F and G at most altitudes.",
+    "images": [
+      "assets/img/lavochkin-la-5-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 15,
     "name": "Mitsubishi J2M Raiden",
     "manufacturer": "Mitsubishi",
     "country": "Japan",
-    "roles": ["Interceptor", "Fighter"],
+    "roles": [
+      "Interceptor",
+      "Fighter"
+    ],
     "generation": "WWII",
     "era": "WWII",
     "yearIntroduced": 1942,
     "yearDiscontinued": 1945,
     "status": "Retired",
-    "notableConflicts": ["World War II", "Defense of the Home Islands"],
+    "notableConflicts": [
+      "World War II",
+      "Defense of the Home Islands"
+    ],
     "specs": {
-      "wingspan_m": 10.80,
+      "wingspan_m": 10.8,
       "weight_kg": 2460,
       "occupants": 1,
       "maxSpeed_kmh": 671,
@@ -1219,22 +504,132 @@
     },
     "funFact": "The J2M Raiden ('Thunderbolt') was one of the few Japanese aircraft specifically designed from the outset to intercept and destroy American B-29 Superfortress bombers at high altitude, with a rate of climb so impressive it could reach 6,000 m in under six minutes — among the fastest of any WWII Japanese fighter.",
     "blurb": "The Mitsubishi J2M Raiden was a radical departure from Japan's tradition of emphasizing maneuverability over all else — a purpose-built high-altitude interceptor prioritizing climb rate, speed, and heavy cannon armament to destroy enemy bombers. Its stubby, barrel-like fuselage and large radial engine gave it an imposing appearance, and the four-cannon armament made it one of the most heavily armed Japanese aircraft of the war.",
-    "images": ["assets/img/mitsubishi-j2m-raiden-1.jpg"]
+    "images": [
+      "assets/img/mitsubishi-j2m-raiden-1.jpg"
+    ]
   },
   {
-    "dexNo": 48,
+    "dexNo": 16,
+    "name": "P-47 Thunderbolt",
+    "manufacturer": "Republic Aviation",
+    "country": "USA",
+    "roles": [
+      "Fighter",
+      "Ground Attack"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1942,
+    "yearDiscontinued": 1955,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II",
+      "Korean War"
+    ],
+    "specs": {
+      "wingspan_m": 12.43,
+      "weight_kg": 4536,
+      "occupants": 1,
+      "maxSpeed_kmh": 697,
+      "range_km": 3060,
+      "ceiling_m": 13106,
+      "powerplant": "1× Pratt & Whitney R-2800-59 Double Wasp radial, 2,535 hp",
+      "armament": "8× .50 cal Browning M2 machine guns, up to 1,100 kg bombs"
+    },
+    "funFact": "The P-47 was one of the heaviest single-engine piston fighters of WWII, yet pilots credited its rugged construction with bringing them home after sustaining damage that would have destroyed other aircraft.",
+    "blurb": "The massive Republic P-47 Thunderbolt was one of the main USAAF fighters of WWII, renowned for its toughness and ability to survive battle damage. Originally designed as a high-altitude escort, it evolved into a devastating ground-attack aircraft in the European and Pacific theaters.",
+    "images": [
+      "assets/img/p-47-thunderbolt-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 17,
+    "name": "P-51 Mustang",
+    "manufacturer": "North American Aviation",
+    "country": "USA",
+    "roles": [
+      "Fighter"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1942,
+    "yearDiscontinued": 1984,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II",
+      "Korean War"
+    ],
+    "specs": {
+      "wingspan_m": 11.28,
+      "weight_kg": 3465,
+      "occupants": 1,
+      "maxSpeed_kmh": 703,
+      "range_km": 2755,
+      "ceiling_m": 12800,
+      "powerplant": "1× Packard V-1650-7 Merlin V12, 1,490 hp",
+      "armament": "6× .50 cal Browning M2 machine guns"
+    },
+    "funFact": "When paired with drop tanks, the P-51D could escort B-17 bombers all the way to Berlin and back from England, fundamentally changing the strategic bombing campaign over Germany.",
+    "blurb": "Widely considered the finest American fighter of WWII, the P-51 Mustang combined speed, range, and maneuverability in an airframe that could match the best German and Japanese fighters. Its introduction as a long-range escort fighter dramatically reduced bomber losses over Europe.",
+    "images": [
+      "assets/img/p-51-mustang-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 18,
+    "name": "Gloster Meteor",
+    "manufacturer": "Gloster Aircraft Company",
+    "country": "UK",
+    "roles": [
+      "Interceptor",
+      "Fighter"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1944,
+    "yearDiscontinued": 1965,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II",
+      "Korean War"
+    ],
+    "specs": {
+      "wingspan_m": 11.33,
+      "weight_kg": 4820,
+      "occupants": 1,
+      "maxSpeed_kmh": 953,
+      "range_km": 1234,
+      "ceiling_m": 13411,
+      "powerplant": "2× Rolls-Royce Derwent 8 centrifugal turbojets, 16.0 kN each",
+      "armament": "4× 20mm Hispano Mk.V cannon in nose"
+    },
+    "funFact": "The Meteor was the only Allied jet aircraft to see combat in WWII, and it holds a unique record of being the first jet aircraft to achieve an aerial victory — by ramming a V-1 flying bomb when its guns jammed.",
+    "blurb": "The Gloster Meteor was Britain's first operational jet fighter and the only Allied jet to see combat in World War II, used primarily to intercept the V-1 flying bomb menace over southern England. As the most-produced Western jet of the late 1940s, it also served with distinction in the Korean War with Australia's RAAF.",
+    "images": [
+      "assets/img/gloster-meteor-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 19,
     "name": "Kawanishi N1K-J Shiden",
     "manufacturer": "Kawanishi",
     "country": "Japan",
-    "roles": ["Interceptor", "Fighter"],
+    "roles": [
+      "Interceptor",
+      "Fighter"
+    ],
     "generation": "WWII",
     "era": "WWII",
     "yearIntroduced": 1944,
     "yearDiscontinued": 1945,
     "status": "Retired",
-    "notableConflicts": ["World War II", "Battle of the Philippines Sea", "Defense of the Home Islands"],
+    "notableConflicts": [
+      "World War II",
+      "Battle of the Philippines Sea",
+      "Defense of the Home Islands"
+    ],
     "specs": {
-      "wingspan_m": 12.00,
+      "wingspan_m": 12,
       "weight_kg": 2657,
       "occupants": 1,
       "maxSpeed_kmh": 595,
@@ -1245,14 +640,873 @@
     },
     "funFact": "American test pilots who evaluated a captured N1K2-J Shiden Kai after the war rated it the finest Japanese fighter of World War II, with handling qualities comparable to the F6F Hellcat and acceleration that surprised even experienced American test pilots.",
     "blurb": "The Kawanishi N1K-J Shiden ('Violet Lightning') was one of Japan's most capable late-war fighters, evolved from a floatplane design into a formidable land-based interceptor that could genuinely match Allied aircraft like the F6F Hellcat and F4U Corsair. Its automatic combat flaps adjusted during maneuvers to maintain optimal lift, and in the hands of aces like Kaneyoshi Muto it proved capable of taking on entire formations of American fighters single-handedly.",
-    "images": ["assets/img/kawanishi-n1k-j-shiden-1.jpg"]
+    "images": [
+      "assets/img/kawanishi-n1k-j-shiden-1.jpg"
+    ]
   },
   {
-    "dexNo": 49,
+    "dexNo": 20,
+    "name": "Messerschmitt Me 163 Komet",
+    "manufacturer": "Messerschmitt",
+    "country": "Germany",
+    "roles": [
+      "Interceptor",
+      "Fighter"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1944,
+    "yearDiscontinued": 1945,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II"
+    ],
+    "specs": {
+      "wingspan_m": 9.3,
+      "weight_kg": 1905,
+      "occupants": 1,
+      "maxSpeed_kmh": 960,
+      "range_km": 100,
+      "ceiling_m": 16500,
+      "powerplant": "1× Walter HWK 509A-2 bi-fuel rocket motor, 16.7 kN thrust",
+      "armament": "2× 30mm MK 108 cannon in wing roots"
+    },
+    "funFact": "The Me 163 was not only the world's first and only operational rocket-powered fighter, but it was also the first piloted aircraft to exceed 1,000 km/h in level flight — a feat so startling that early Allied pilots who reported being attacked by it were initially disbelieved.",
+    "blurb": "The Messerschmitt Me 163 Komet was the most radical fighter of WWII: a tailless rocket-powered interceptor that burned through its entire fuel supply in under eight minutes, then glided back to its base unpowered. Its extreme speed made it nearly impossible for Allied pilots to engage, but its hazardous propellants, violent landing characteristics, and window of vulnerability while gliding made it as dangerous to its own pilots as to the enemy.",
+    "images": [
+      "assets/img/messerschmitt-me-163-komet-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 21,
+    "name": "Messerschmitt Me 262",
+    "manufacturer": "Messerschmitt",
+    "country": "Germany",
+    "roles": [
+      "Interceptor",
+      "Fighter"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1944,
+    "yearDiscontinued": 1945,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II"
+    ],
+    "specs": {
+      "wingspan_m": 12.6,
+      "weight_kg": 3795,
+      "occupants": 1,
+      "maxSpeed_kmh": 900,
+      "range_km": 1050,
+      "ceiling_m": 11450,
+      "powerplant": "2× Junkers Jumo 004B-1 axial-flow turbojets, 8.8 kN each",
+      "armament": "4× 30mm MK 108 cannon in nose; optional R4M rockets"
+    },
+    "funFact": "The Me 262 was approximately 150 km/h faster than the best Allied piston fighters, and Luftwaffe pilots found that Allied aircraft could not catch it in level flight — only diving from altitude above gave Allied pilots any chance of interception.",
+    "blurb": "The Messerschmitt Me 262 Schwalbe ('Swallow') was the world's first operational jet-powered fighter aircraft, entering Luftwaffe service in 1944 and representing a quantum leap in aviation technology. Despite its revolutionary performance advantage, Hitler's insistence on using it as a bomber rather than an interceptor, combined with chronic fuel shortages and pilot training difficulties, prevented it from decisively affecting the war's outcome.",
+    "images": [
+      "assets/img/messerschmitt-me-262-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 22,
+    "name": "Yakovlev Yak-3",
+    "manufacturer": "Yakovlev",
+    "country": "USSR/Russia",
+    "roles": [
+      "Fighter"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1944,
+    "yearDiscontinued": 1946,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II",
+      "Eastern Front"
+    ],
+    "specs": {
+      "wingspan_m": 9.2,
+      "weight_kg": 2105,
+      "occupants": 1,
+      "maxSpeed_kmh": 655,
+      "range_km": 650,
+      "ceiling_m": 10700,
+      "powerplant": "1× Klimov VK-105PF-2 V-12 liquid-cooled, 1,300 hp",
+      "armament": "1× 20mm ShVAK cannon, 2× 12.7mm UBS machine guns"
+    },
+    "funFact": "German pilots in the Luftwaffe were ordered to avoid combat below 5,000 metres with the Yak-3, acknowledging that at low and medium altitudes this tiny Soviet fighter was superior to their best aircraft.",
+    "blurb": "The Yakovlev Yak-3 was arguably the best dogfighter on the Eastern Front — one of the smallest and lightest combat fighters of WWII, its exceptional power-to-weight ratio gave it outstanding climb rate and agility. Arriving in 1944, it helped Soviet pilots wrest air superiority from the Luftwaffe during the final campaigns of the war.",
+    "images": [
+      "assets/img/yakovlev-yak-3-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 23,
+    "name": "Heinkel He 162",
+    "manufacturer": "Heinkel",
+    "country": "Germany",
+    "roles": [
+      "Interceptor",
+      "Fighter"
+    ],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1945,
+    "yearDiscontinued": 1945,
+    "status": "Retired",
+    "notableConflicts": [
+      "World War II"
+    ],
+    "specs": {
+      "wingspan_m": 7.2,
+      "weight_kg": 1663,
+      "occupants": 1,
+      "maxSpeed_kmh": 840,
+      "range_km": 975,
+      "ceiling_m": 12000,
+      "powerplant": "1× BMW 003E-1 axial-flow turbojet, 7.8 kN thrust",
+      "armament": "2× 20mm MG 151/20 cannon (A-2 variant)"
+    },
+    "funFact": "The He 162 Volksjäger ('People's Fighter') was designed, built, and flown operationally in under 90 days — an almost incomprehensible engineering achievement — yet it was so hastily constructed from wood and metal that early production aircraft suffered structural failures in flight.",
+    "blurb": "The Heinkel He 162 was a desperate last-ditch jet interceptor designed by Germany in late 1944 to be mass-produced using non-strategic materials and flown by Hitler Youth with minimal training. Despite its rushed development and structural problems, the tiny shoulder-mounted jet was genuinely fast and agile, though it arrived far too late and in too few numbers to influence the war's outcome.",
+    "images": [
+      "assets/img/heinkel-he-162-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 24,
+    "name": "F-86 Sabre",
+    "manufacturer": "North American Aviation",
+    "country": "USA",
+    "roles": [
+      "Fighter"
+    ],
+    "generation": "1st gen",
+    "era": "Cold War",
+    "yearIntroduced": 1949,
+    "yearDiscontinued": 1994,
+    "status": "Retired",
+    "notableConflicts": [
+      "Korean War"
+    ],
+    "specs": {
+      "wingspan_m": 11.31,
+      "weight_kg": 4967,
+      "occupants": 1,
+      "maxSpeed_kmh": 1086,
+      "range_km": 2454,
+      "ceiling_m": 15100,
+      "powerplant": "1× General Electric J47-GE-27 turbojet, 26.3 kN thrust",
+      "armament": "6× .50 cal M3 Browning machine guns"
+    },
+    "funFact": "The F-86 Sabre achieved a kill ratio of approximately 10:1 over the MiG-15 in Korea, though some historians debate these figures as Soviet and Chinese records suggest a ratio closer to 2:1.",
+    "blurb": "America's first swept-wing jet fighter, the F-86 Sabre is best remembered for its legendary duels with the Soviet MiG-15 over 'MiG Alley' during the Korean War. It became the backbone of NATO air defenses throughout the early Cold War and was operated by over 30 nations.",
+    "images": [
+      "assets/img/f-86-sabre-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 25,
+    "name": "MiG-15",
+    "manufacturer": "Mikoyan-Gurevich",
+    "country": "USSR/Russia",
+    "roles": [
+      "Fighter",
+      "Interceptor"
+    ],
+    "generation": "1st gen",
+    "era": "Cold War",
+    "yearIntroduced": 1949,
+    "yearDiscontinued": 1990,
+    "status": "Retired",
+    "notableConflicts": [
+      "Korean War"
+    ],
+    "specs": {
+      "wingspan_m": 10.08,
+      "weight_kg": 3247,
+      "occupants": 1,
+      "maxSpeed_kmh": 1047,
+      "range_km": 1335,
+      "ceiling_m": 15100,
+      "powerplant": "1× Klimov RD-45 centrifugal-flow turbojet (copy of Rolls-Royce Nene), 22.3 kN thrust",
+      "armament": "2× 23mm NR-23 cannon, 1× 37mm N-37 cannon"
+    },
+    "funFact": "The MiG-15's engine was based on the Rolls-Royce Nene — a technology the British Labour government sold to the USSR in 1947 during a brief period of post-war goodwill, a decision Churchill called 'one of the most grievous errors in our history.'",
+    "blurb": "The MiG-15 shocked the West when it appeared over Korea in November 1950, outperforming every aircraft the UN could field until the arrival of the F-86 Sabre. Built around a British engine design, it became the most produced jet fighter in history with over 18,000 manufactured, and served in over 40 air forces worldwide.",
+    "images": [
+      "assets/img/mig-15-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 26,
+    "name": "MiG-17",
+    "manufacturer": "Mikoyan-Gurevich",
+    "country": "USSR/Russia",
+    "roles": [
+      "Fighter"
+    ],
+    "generation": "1st gen",
+    "era": "Cold War",
+    "yearIntroduced": 1952,
+    "yearDiscontinued": 1992,
+    "status": "Retired",
+    "notableConflicts": [
+      "Vietnam War",
+      "Six-Day War",
+      "Yom Kippur War"
+    ],
+    "specs": {
+      "wingspan_m": 9.63,
+      "weight_kg": 3919,
+      "occupants": 1,
+      "maxSpeed_kmh": 1145,
+      "range_km": 1080,
+      "ceiling_m": 16600,
+      "powerplant": "1× Klimov VK-1F afterburning centrifugal-flow turbojet, 33.8 kN with afterburner",
+      "armament": "1× 37mm N-37 cannon, 2× 23mm NR-23 cannon; rockets or bombs on 2 pylons"
+    },
+    "funFact": "During the Vietnam War, nimble MiG-17s flying without radar repeatedly outmanoeuvred the much more advanced supersonic F-105 Thunderchiefs and F-4 Phantoms in close combat, forcing the US Navy to reopen its Top Gun dogfighting school.",
+    "blurb": "The MiG-17 was an evolutionary improvement on the MiG-15 with a new wing design that conferred much superior handling at high subsonic speeds. Its outstanding agility and heavy cannon armament made it a formidable opponent in close combat during the Vietnam War, where it consistently challenged American aircraft far superior in technology but inferior in turning ability.",
+    "images": [
+      "assets/img/mig-17-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 27,
+    "name": "F-100 Super Sabre",
+    "manufacturer": "North American Aviation",
+    "country": "USA",
+    "roles": [
+      "Fighter",
+      "Ground Attack"
+    ],
+    "generation": "2nd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1954,
+    "yearDiscontinued": 1979,
+    "status": "Retired",
+    "notableConflicts": [
+      "Vietnam War"
+    ],
+    "specs": {
+      "wingspan_m": 11.82,
+      "weight_kg": 9526,
+      "occupants": 1,
+      "maxSpeed_kmh": 1390,
+      "range_km": 3210,
+      "ceiling_m": 14020,
+      "powerplant": "1× Pratt & Whitney J57-P-21A afterburning turbojet, 75.4 kN thrust",
+      "armament": "4× 20mm M39 cannon, up to 3,400 kg external stores"
+    },
+    "funFact": "The F-100 Super Sabre was the world's first operational supersonic jet fighter capable of level supersonic flight, achieving Mach 1 in level flight on its first flight in May 1953.",
+    "blurb": "The North American F-100 Super Sabre was the first of the USAF's 'Century Series' fighters and the first American aircraft capable of sustained supersonic flight in level flight. It served extensively in Vietnam primarily as a ground-attack aircraft and in the 'Wild Weasel' suppression of enemy air defenses role.",
+    "images": [
+      "assets/img/f-100-super-sabre-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 28,
+    "name": "Hawker Hunter",
+    "manufacturer": "Hawker Aircraft",
+    "country": "UK",
+    "roles": [
+      "Fighter"
+    ],
+    "generation": "1st gen",
+    "era": "Cold War",
+    "yearIntroduced": 1954,
+    "yearDiscontinued": 2014,
+    "status": "Retired",
+    "notableConflicts": [
+      "Suez Crisis",
+      "Aden Emergency",
+      "Indo-Pakistani Wars"
+    ],
+    "specs": {
+      "wingspan_m": 10.26,
+      "weight_kg": 6405,
+      "occupants": 1,
+      "maxSpeed_kmh": 1150,
+      "range_km": 715,
+      "ceiling_m": 15240,
+      "powerplant": "1× Rolls-Royce Avon 207 turbojet, 45.1 kN thrust",
+      "armament": "4× 30mm ADEN revolver cannon; up to 3,360 kg external stores (FGA.9)"
+    },
+    "funFact": "In October 1953, test pilot Neville Duke set a world air speed record of 1,171 km/h (728 mph) in a Hunter prototype, briefly making it the fastest aircraft in the world.",
+    "blurb": "The Hawker Hunter was the definitive British subsonic jet fighter of the 1950s — elegant, reliable, and widely exported to over 20 nations. Its exceptional handling and powerful cannon armament made it beloved by pilots, and its adaptability saw it serve in strike, trainer, and display roles into the 21st century.",
+    "images": [
+      "assets/img/hawker-hunter-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 29,
+    "name": "Dassault Mystère IV",
+    "manufacturer": "Dassault Aviation",
+    "country": "France",
+    "roles": [
+      "Fighter",
+      "Ground Attack"
+    ],
+    "generation": "2nd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1955,
+    "yearDiscontinued": 1982,
+    "status": "Retired",
+    "notableConflicts": [
+      "Suez Crisis",
+      "Six-Day War",
+      "Indo-Pakistani War of 1965"
+    ],
+    "specs": {
+      "wingspan_m": 11.1,
+      "weight_kg": 5875,
+      "occupants": 1,
+      "maxSpeed_kmh": 1120,
+      "range_km": 1250,
+      "ceiling_m": 15000,
+      "powerplant": "1× Hispano-Suiza Tay 250A turbojet (licence-built Rolls-Royce Tay), 34.0 kN thrust",
+      "armament": "2× 30mm DEFA cannon; rockets, bombs, or Matra air-to-air missiles on 4 hardpoints"
+    },
+    "funFact": "During the 1965 Indo-Pakistani War, Indian Air Force Mystère IVs destroyed Pakistani Patton tanks near Chhamb in some of the most effective close air support sorties in post-war history, demonstrating that a swept-wing jet fighter could be devastatingly effective in the ground-attack role.",
+    "blurb": "The Dassault Mystère IV was France's first truly supersonic-capable swept-wing fighter, entering service in 1955 and giving the French Air Force a modern jet combat capability. Exported to India and Israel, it saw extensive combat in the Suez Crisis and Indo-Pakistani War of 1965, where Israeli and Indian pilots proved its potency in both air-to-air and ground-attack roles.",
+    "images": [
+      "assets/img/dassault-mystere-iv-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 30,
+    "name": "MiG-19",
+    "manufacturer": "Mikoyan-Gurevich",
+    "country": "USSR/Russia",
+    "roles": [
+      "Fighter"
+    ],
+    "generation": "2nd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1955,
+    "yearDiscontinued": 1975,
+    "status": "Retired",
+    "notableConflicts": [
+      "Vietnam War",
+      "Indo-Pakistani War of 1965"
+    ],
+    "specs": {
+      "wingspan_m": 9,
+      "weight_kg": 5172,
+      "occupants": 1,
+      "maxSpeed_kmh": 1452,
+      "range_km": 1390,
+      "ceiling_m": 17500,
+      "powerplant": "2× Tumansky RD-9B afterburning turbojets, 31.8 kN each with afterburner",
+      "armament": "3× 30mm NR-30 cannon; rockets or missiles on 4 pylons"
+    },
+    "funFact": "The MiG-19 was the USSR's first production supersonic fighter, and a Chinese-built copy (the Shenyang J-6/F-6) was manufactured in such vast numbers — over 3,000 — that it served in Pakistan, Egypt, Albania, and North Korea well into the 2000s.",
+    "blurb": "The MiG-19 was the Soviet Union's first twin-engine supersonic fighter, capable of exceeding Mach 1 in level flight and setting a new standard for Soviet jet combat. Although quickly eclipsed by the MiG-21, it saw extensive combat in Chinese and Pakistani hands and was the aircraft that shot down Gary Powers' U-2 spy plane over the USSR in 1960.",
+    "images": [
+      "assets/img/mig-19-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 31,
+    "name": "F-104 Starfighter",
+    "manufacturer": "Lockheed",
+    "country": "USA",
+    "roles": [
+      "Interceptor",
+      "Fighter"
+    ],
+    "generation": "2nd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1958,
+    "yearDiscontinued": 2004,
+    "status": "Retired",
+    "notableConflicts": [
+      "Vietnam War"
+    ],
+    "specs": {
+      "wingspan_m": 6.63,
+      "weight_kg": 6348,
+      "occupants": 1,
+      "maxSpeed_kmh": 2124,
+      "range_km": 1175,
+      "ceiling_m": 17680,
+      "powerplant": "1× General Electric J79-GE-11A afterburning turbojet, 70.3 kN thrust",
+      "armament": "1× 20mm M61A1 Vulcan rotary cannon, AIM-9 Sidewinder missiles"
+    },
+    "funFact": "The F-104 had the smallest wing of any operational fighter jet — just 6.63 m wingspan on a 16.7 m fuselage — giving it such poor low-speed handling that pilots called it 'the missile with a man in it.'",
+    "blurb": "Designed by Kelly Johnson after consultations with Korean War fighter pilots who wanted pure speed, the F-104 Starfighter was a radical departure from conventional fighter design. Its razor-thin, stubby wings gave it outstanding high-altitude speed but also earned it a controversial safety record, particularly in West Germany where it was nicknamed 'the Widowmaker.'",
+    "images": [
+      "assets/img/f-104-starfighter-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 32,
+    "name": "MiG-21",
+    "manufacturer": "Mikoyan-Gurevich",
+    "country": "USSR/Russia",
+    "roles": [
+      "Fighter",
+      "Interceptor"
+    ],
+    "generation": "2nd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1959,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": [
+      "Vietnam War",
+      "Arab-Israeli Wars",
+      "Indo-Pakistani Wars",
+      "Gulf War"
+    ],
+    "specs": {
+      "wingspan_m": 7.15,
+      "weight_kg": 5339,
+      "occupants": 1,
+      "maxSpeed_kmh": 2175,
+      "range_km": 793,
+      "ceiling_m": 17800,
+      "powerplant": "1× Tumansky R-25-300 afterburning turbojet, 69.6 kN with afterburner",
+      "armament": "1× 23mm GSh-23L cannon; R-3S, R-60, R-13M missiles on 4 pylons"
+    },
+    "funFact": "The MiG-21 is the most widely produced supersonic jet fighter in history, with over 11,000 built, and has the distinction of serving in more countries than any other combat aircraft — used by over 60 nations across six continents.",
+    "blurb": "The Mikoyan-Gurevich MiG-21 'Fishbed' is the most prolific supersonic fighter ever built, combining a lightweight delta-wing design with Mach 2 performance to create an affordable, widely-exported warplane. Combat experience from Vietnam to the Middle East proved it capable of challenging far more modern aircraft when flown aggressively, and updated variants remain in operational service more than 60 years after its introduction.",
+    "images": [
+      "assets/img/mig-21-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 33,
+    "name": "English Electric Lightning",
+    "manufacturer": "English Electric",
+    "country": "UK",
+    "roles": [
+      "Interceptor",
+      "Fighter"
+    ],
+    "generation": "3rd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1960,
+    "yearDiscontinued": 1988,
+    "status": "Retired",
+    "notableConflicts": [
+      "Cold War"
+    ],
+    "specs": {
+      "wingspan_m": 10.61,
+      "weight_kg": 12604,
+      "occupants": 1,
+      "maxSpeed_kmh": 2100,
+      "range_km": 1500,
+      "ceiling_m": 18000,
+      "powerplant": "2× Rolls-Royce Avon 301R afterburning turbojets (stacked vertically), 72.8 kN each",
+      "armament": "2× 30mm ADEN cannon; 2× de Havilland Firestreak or Red Top IR missiles"
+    },
+    "funFact": "The Lightning's engines are mounted one above the other in a unique stacked arrangement — a design that made it extraordinarily fast but gave it a notoriously short range, earning it the nickname 'the electric jet' for how quickly it burned through fuel.",
+    "blurb": "The English Electric Lightning was Britain's only indigenous supersonic interceptor and the fastest aircraft the RAF ever operated, capable of climbing to 12,000 m in under three minutes. Its unique stacked-engine layout, Mach 2+ performance, and dramatic vertical climb ability made it a spectacular but fuel-hungry defender of UK airspace throughout the Cold War.",
+    "images": [
+      "assets/img/english-electric-lightning-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 34,
+    "name": "F-4 Phantom II",
+    "manufacturer": "McDonnell Douglas",
+    "country": "USA",
+    "roles": [
+      "Multirole",
+      "Fighter"
+    ],
+    "generation": "3rd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1960,
+    "yearDiscontinued": 1996,
+    "status": "Retired",
+    "notableConflicts": [
+      "Vietnam War",
+      "Yom Kippur War",
+      "Gulf War"
+    ],
+    "specs": {
+      "wingspan_m": 11.77,
+      "weight_kg": 13757,
+      "occupants": 2,
+      "maxSpeed_kmh": 2370,
+      "range_km": 2600,
+      "ceiling_m": 18300,
+      "powerplant": "2× General Electric J79-GE-17A afterburning turbojets, 79.4 kN each",
+      "armament": "1× 20mm M61A1 Vulcan cannon (F-4E), AIM-7 Sparrow, AIM-9 Sidewinder, up to 8,480 kg ordnance"
+    },
+    "funFact": "The F-4 Phantom II was so capable that it served in the air forces of 11 countries, and some nations flew it into the 2010s. It holds the distinction of being the last US aircraft to produce an ace pilot (two MiG kills each needed for a five-kill ace) in Vietnam.",
+    "blurb": "The McDonnell Douglas F-4 Phantom II is one of the most iconic jet fighters ever built, serving the US Navy, Marines, and Air Force simultaneously — a rare achievement. Originally designed without a gun (relying solely on missiles), combat experience in Vietnam proved this to be a serious deficiency, leading to the addition of the M61 cannon in later variants.",
+    "images": [
+      "assets/img/f-4-phantom-ii-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 35,
+    "name": "Dassault Mirage III",
+    "manufacturer": "Dassault Aviation",
+    "country": "France",
+    "roles": [
+      "Interceptor",
+      "Fighter"
+    ],
+    "generation": "2nd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1961,
+    "yearDiscontinued": 1988,
+    "status": "Retired",
+    "notableConflicts": [
+      "Six-Day War",
+      "Yom Kippur War",
+      "Falklands War",
+      "Indo-Pakistani War of 1971"
+    ],
+    "specs": {
+      "wingspan_m": 8.22,
+      "weight_kg": 7050,
+      "occupants": 1,
+      "maxSpeed_kmh": 2350,
+      "range_km": 1200,
+      "ceiling_m": 17000,
+      "powerplant": "1× SNECMA Atar 9C afterburning turbojet, 60.8 kN thrust",
+      "armament": "2× 30mm DEFA 552 cannon; Matra R.530, AIM-9 Sidewinder, bombs, rockets on 5 hardpoints"
+    },
+    "funFact": "During the Six-Day War of 1967, Israeli Air Force Mirage IIICs destroyed over 400 Arab aircraft — mostly on the ground — in the opening hours of the conflict, one of the most decisive uses of airpower in history, establishing the Mirage III as the dominant Middle Eastern fighter of its era.",
+    "blurb": "The Dassault Mirage III was France's iconic tailless delta-wing interceptor, the aircraft that established Dassault's reputation for innovative design and made France a major independent player in the global fighter market. Its Mach 2.2 performance and simple yet elegant delta wing were exported to 20 countries and saw extensive combat in the Middle East, South America, and South Asia over three decades.",
+    "images": [
+      "assets/img/dassault-mirage-iii-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 36,
+    "name": "Hawker Siddeley Harrier",
+    "manufacturer": "Hawker Siddeley",
+    "country": "UK",
+    "roles": [
+      "Attack",
+      "Multirole"
+    ],
+    "generation": "3rd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1969,
+    "yearDiscontinued": 2003,
+    "status": "Retired",
+    "notableConflicts": [
+      "Falklands War"
+    ],
+    "specs": {
+      "wingspan_m": 7.7,
+      "weight_kg": 5280,
+      "occupants": 1,
+      "maxSpeed_kmh": 1175,
+      "range_km": 676,
+      "ceiling_m": 15600,
+      "powerplant": "1× Rolls-Royce Pegasus Mk.103 vectored-thrust turbofan, 95.6 kN thrust",
+      "armament": "2× 30mm ADEN cannon pods; AIM-9 Sidewinder, bombs, rockets on underwing pylons"
+    },
+    "funFact": "The Harrier was the world's first operational VTOL jet combat aircraft, and its ability to operate from forest clearings, roads, and ski-jump-equipped carriers fundamentally changed thinking about air power dispersal and survivability.",
+    "blurb": "The Hawker Siddeley Harrier revolutionised military aviation as the world's first truly successful V/STOL combat jet, using a single vectored-thrust engine to take off and land vertically. Its finest hour came during the 1982 Falklands War, where Sea Harriers operating from small carriers in the South Atlantic defeated a modern Argentine air force without losing a single aircraft in air-to-air combat.",
+    "images": [
+      "assets/img/hawker-siddeley-harrier-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 37,
+    "name": "MiG-23",
+    "manufacturer": "Mikoyan-Gurevich",
+    "country": "USSR/Russia",
+    "roles": [
+      "Fighter",
+      "Interceptor"
+    ],
+    "generation": "3rd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1970,
+    "yearDiscontinued": 2017,
+    "status": "Retired",
+    "notableConflicts": [
+      "Yom Kippur War",
+      "Gulf War",
+      "Soviet–Afghan War",
+      "Angolan Civil War"
+    ],
+    "specs": {
+      "wingspan_m": 13.97,
+      "weight_kg": 10890,
+      "occupants": 1,
+      "maxSpeed_kmh": 2445,
+      "range_km": 1150,
+      "ceiling_m": 18500,
+      "powerplant": "1× Khachaturov R-35-300 afterburning turbojet, 127 kN with afterburner",
+      "armament": "1× 23mm GSh-23L cannon; R-23, R-24, R-60 missiles on 6 pylons"
+    },
+    "funFact": "The MiG-23 featured a variable-geometry wing that could sweep between 16° and 72°, giving it versatility from slow carrier landings to Mach 2.3 high-altitude dashes — though pilots found the handling unpredictable at some intermediate sweep settings.",
+    "blurb": "The MiG-23 'Flogger' was the Soviet Union's first variable-geometry swing-wing combat aircraft, designed to replace the MiG-21 by combining high supersonic performance with better low-speed handling for shorter runways. It became the most widely operated Soviet fighter of the Cold War era, exported to over 20 nations, and saw extensive combat across the Middle East and Africa.",
+    "images": [
+      "assets/img/mig-23-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 38,
+    "name": "MiG-25 Foxbat",
+    "manufacturer": "Mikoyan-Gurevich",
+    "country": "USSR/Russia",
+    "roles": [
+      "Interceptor"
+    ],
+    "generation": "3rd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1970,
+    "yearDiscontinued": 2013,
+    "status": "Retired",
+    "notableConflicts": [
+      "Yom Kippur War",
+      "Soviet–Afghan War",
+      "Gulf War",
+      "Iran–Iraq War"
+    ],
+    "specs": {
+      "wingspan_m": 14.02,
+      "weight_kg": 20000,
+      "occupants": 1,
+      "maxSpeed_kmh": 3000,
+      "range_km": 1860,
+      "ceiling_m": 20700,
+      "powerplant": "2× Soyuz/Tumansky R-15BD-300 afterburning turbojets, 109.8 kN each with afterburner",
+      "armament": "4× R-40 (AA-6 Acrid) air-to-air missiles"
+    },
+    "funFact": "When a MiG-25 pilot defected to Japan in 1976, Western analysts were stunned to find the aircraft was largely built from stainless steel and nickel alloy rather than titanium, and its radar was so powerful it could blind an F-4's radar by transmitting at low altitude.",
+    "blurb": "The MiG-25 Foxbat was the fastest operational combat aircraft ever built, capable of exceeding Mach 2.83 in service and briefly touching Mach 3.2 — fast enough to outrun every NATO interceptor missile of its era. Designed to counter the cancelled XB-70 Valkyrie bomber, it caused a crisis in the West when first spotted by reconnaissance satellites, its massive size and performance leading to hugely inflated estimates of Soviet capability.",
+    "images": [
+      "assets/img/mig-25-foxbat-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 39,
+    "name": "Dassault Mirage F1",
+    "manufacturer": "Dassault Aviation",
+    "country": "France",
+    "roles": [
+      "Interceptor",
+      "Multirole"
+    ],
+    "generation": "3rd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1973,
+    "yearDiscontinued": 2014,
+    "status": "Retired",
+    "notableConflicts": [
+      "Iran–Iraq War",
+      "Gulf War",
+      "Operation Daguet",
+      "Libyan Civil War"
+    ],
+    "specs": {
+      "wingspan_m": 8.4,
+      "weight_kg": 7400,
+      "occupants": 1,
+      "maxSpeed_kmh": 2335,
+      "range_km": 1400,
+      "ceiling_m": 20000,
+      "powerplant": "1× SNECMA Atar 9K-50 afterburning turbojet, 70.6 kN thrust",
+      "armament": "2× 30mm DEFA 553 cannon; Super 530, Magic, AIM-9, bombs, rockets on 7 hardpoints"
+    },
+    "funFact": "The Mirage F1's conventional swept-wing layout — a departure from Dassault's signature delta — gave it 40% more range and 80% more low-speed endurance than the Mirage III it replaced, while retaining supersonic performance, making it one of the most exported French combat aircraft with 730 built for 12 nations.",
+    "blurb": "The Dassault Mirage F1 replaced the iconic Mirage III with a conventional swept-wing and tailplane layout that dramatically improved practical range, low-altitude handling, and take-off performance without sacrificing supersonic performance. Exported widely and combat-proven in numerous conflicts from the Iran-Iraq War to the Gulf War, it became France's most important fighter of the 1970s and 80s.",
+    "images": [
+      "assets/img/dassault-mirage-f1-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 40,
+    "name": "F-14 Tomcat",
+    "manufacturer": "Grumman",
+    "country": "USA",
+    "roles": [
+      "Interceptor",
+      "Fighter"
+    ],
+    "generation": "4th gen",
+    "era": "Cold War",
+    "yearIntroduced": 1974,
+    "yearDiscontinued": 2006,
+    "status": "Retired",
+    "notableConflicts": [
+      "Gulf of Sidra Incident",
+      "Gulf War",
+      "Operation Iraqi Freedom"
+    ],
+    "specs": {
+      "wingspan_m": 19.54,
+      "weight_kg": 19838,
+      "occupants": 2,
+      "maxSpeed_kmh": 2485,
+      "range_km": 2960,
+      "ceiling_m": 16150,
+      "powerplant": "2× General Electric F110-GE-400 afterburning turbofans, 102.8 kN each",
+      "armament": "1× 20mm M61A1 Vulcan cannon, AIM-54 Phoenix, AIM-7 Sparrow, AIM-9 Sidewinder"
+    },
+    "funFact": "The F-14's AIM-54 Phoenix missile could engage targets at ranges exceeding 190 km, making it the longest-range air-to-air missile ever carried by a US fighter. The Tomcat also gained worldwide fame from the 1986 film Top Gun.",
+    "blurb": "Grumman's swing-wing masterpiece, the F-14 Tomcat was designed to replace the F-4 Phantom as the US Navy's primary fleet defense interceptor. Its variable-geometry wings swept from 20° to 68°, optimizing performance across the entire flight envelope from carrier landing to Mach 2+ intercepts.",
+    "images": [
+      "assets/img/f-14-tomcat-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 41,
+    "name": "A-10 Thunderbolt II",
+    "manufacturer": "Fairchild Republic",
+    "country": "USA",
+    "roles": [
+      "Attack",
+      "Ground Attack"
+    ],
+    "generation": "4th gen",
+    "era": "Cold War",
+    "yearIntroduced": 1976,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": [
+      "Gulf War",
+      "Operation Iraqi Freedom",
+      "Operation Enduring Freedom"
+    ],
+    "specs": {
+      "wingspan_m": 17.53,
+      "weight_kg": 11321,
+      "occupants": 1,
+      "maxSpeed_kmh": 833,
+      "range_km": 1287,
+      "ceiling_m": 13716,
+      "powerplant": "2× General Electric TF34-GE-100A turbofans, 40.3 kN each",
+      "armament": "1× 30mm GAU-8/A Avenger 7-barrel rotary cannon, up to 7,260 kg ordnance on 11 hardpoints"
+    },
+    "funFact": "The A-10 was designed around its gun — the GAU-8/A Avenger cannon is so large and powerful that the entire aircraft is essentially built around it, and the recoil from firing is significant enough to slow the aircraft.",
+    "blurb": "The ungainly but beloved 'Warthog' was purpose-built for close air support of ground troops, designed to survive in the extremely hostile environment of low-altitude battlefield operations. Its titanium 'bathtub' cockpit armor, redundant systems, and ability to fly on a single engine have made it legendary for bringing pilots home after taking devastating battle damage.",
+    "images": [
+      "assets/img/a-10-thunderbolt-ii-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 42,
+    "name": "F-15 Eagle",
+    "manufacturer": "McDonnell Douglas",
+    "country": "USA",
+    "roles": [
+      "Air Superiority",
+      "Fighter"
+    ],
+    "generation": "4th gen",
+    "era": "Cold War",
+    "yearIntroduced": 1976,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": [
+      "Gulf War",
+      "Operation Iraqi Freedom"
+    ],
+    "specs": {
+      "wingspan_m": 13.05,
+      "weight_kg": 12700,
+      "occupants": 1,
+      "maxSpeed_kmh": 3017,
+      "range_km": 5550,
+      "ceiling_m": 20000,
+      "powerplant": "2× Pratt & Whitney F100 turbofans",
+      "armament": "20mm M61 Vulcan, AIM-9, AIM-120"
+    },
+    "funFact": "The F-15 has an air-to-air combat record of over 100 victories with zero losses.",
+    "blurb": "A twin-engine all-weather air-superiority fighter designed to gain and maintain control of the skies.",
+    "images": [
+      "assets/img/f15-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 43,
+    "name": "Dassault Super Étendard",
+    "manufacturer": "Dassault Aviation",
+    "country": "France",
+    "roles": [
+      "Attack",
+      "Multirole"
+    ],
+    "generation": "3rd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1978,
+    "yearDiscontinued": 2016,
+    "status": "Retired",
+    "notableConflicts": [
+      "Falklands War",
+      "Iran–Iraq War",
+      "Gulf War",
+      "Kosovo War",
+      "Afghanistan"
+    ],
+    "specs": {
+      "wingspan_m": 9.6,
+      "weight_kg": 6500,
+      "occupants": 1,
+      "maxSpeed_kmh": 1205,
+      "range_km": 850,
+      "ceiling_m": 13700,
+      "powerplant": "1× SNECMA Atar 8K-50 non-afterburning turbojet, 49.0 kN thrust",
+      "armament": "2× 30mm DEFA 553 cannon; 1× AM39 Exocet anti-ship missile, bombs, rockets on 5 hardpoints"
+    },
+    "funFact": "During the 1982 Falklands War, Argentine Navy Super Étendards launched two AM39 Exocet missiles that sank HMS Sheffield and the container ship Atlantic Conveyor, demonstrating for the first time the devastating potential of sea-skimming anti-ship missiles against modern warships and changing naval warfare doctrine worldwide.",
+    "blurb": "The Dassault Super Étendard was France's carrier-borne strike aircraft, best remembered for the catastrophic impact of its Exocet missile attacks during the Falklands War, which sank two ships and shocked the world with the effectiveness of modern anti-ship missiles. Operated by both the French Navy and Argentina, it also delivered the first operational use of the ASMP nuclear stand-off missile for France's airborne nuclear deterrent.",
+    "images": [
+      "assets/img/dassault-super-etendard-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 44,
+    "name": "F-16 Fighting Falcon",
+    "manufacturer": "General Dynamics",
+    "country": "USA",
+    "roles": [
+      "Multirole"
+    ],
+    "generation": "4th gen",
+    "era": "Cold War",
+    "yearIntroduced": 1978,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": [
+      "Gulf War",
+      "Operation Iraqi Freedom",
+      "Operation Enduring Freedom"
+    ],
+    "specs": {
+      "wingspan_m": 9.45,
+      "weight_kg": 8573,
+      "occupants": 1,
+      "maxSpeed_kmh": 2120,
+      "range_km": 4220,
+      "ceiling_m": 15240,
+      "powerplant": "1× Pratt & Whitney F100-PW-229 afterburning turbofan, 129.4 kN thrust",
+      "armament": "1× 20mm M61A1 Vulcan cannon, 11 hardpoints for AIM-9, AIM-120, bombs, and other ordnance"
+    },
+    "funFact": "The F-16 was the first operational fighter aircraft to be deliberately designed to be aerodynamically unstable, relying on a fly-by-wire system to remain controllable — a design choice that dramatically improved its maneuverability.",
+    "blurb": "The General Dynamics F-16 Fighting Falcon is the world's most prolific modern jet fighter, with over 4,600 built and operated by 25+ nations. Born from the Lightweight Fighter competition of the 1970s, it set new standards for agility and pilot ergonomics including the reclined seat and side-stick controller.",
+    "images": [
+      "assets/img/f-16-fighting-falcon-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 45,
     "name": "Mitsubishi F-1",
     "manufacturer": "Mitsubishi Heavy Industries",
     "country": "Japan",
-    "roles": ["Attack", "Ground Attack"],
+    "roles": [
+      "Attack",
+      "Ground Attack"
+    ],
     "generation": "3rd gen",
     "era": "Cold War",
     "yearIntroduced": 1978,
@@ -1271,14 +1525,229 @@
     },
     "funFact": "The Mitsubishi F-1 was Japan's first domestically designed and produced supersonic combat aircraft since World War II, ending three decades of reliance on American designs and marking Japan's return as an independent combat aircraft manufacturer.",
     "blurb": "The Mitsubishi F-1 was Japan's first post-war indigenous supersonic strike fighter, developed from the T-2 trainer to give the Japan Air Self-Defense Force a domestically produced anti-ship attack capability. Primarily tasked with defending Japan's sea lanes against Soviet naval forces in the Cold War, its short range reflected Japan's purely defensive posture, and it served faithfully for nearly three decades before retirement.",
-    "images": ["assets/img/mitsubishi-f-1-1.jpg"]
+    "images": [
+      "assets/img/mitsubishi-f-1-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 46,
+    "name": "Panavia Tornado",
+    "manufacturer": "Panavia Aircraft (UK/Germany/Italy)",
+    "country": "UK",
+    "roles": [
+      "Multirole",
+      "Attack"
+    ],
+    "generation": "3rd gen",
+    "era": "Cold War",
+    "yearIntroduced": 1979,
+    "yearDiscontinued": 2019,
+    "status": "Retired",
+    "notableConflicts": [
+      "Gulf War",
+      "Kosovo War",
+      "Operation Enduring Freedom",
+      "Operation Shader"
+    ],
+    "specs": {
+      "wingspan_m": 13.91,
+      "weight_kg": 13890,
+      "occupants": 2,
+      "maxSpeed_kmh": 2338,
+      "range_km": 1390,
+      "ceiling_m": 15240,
+      "powerplant": "2× Turbo-Union RB199-34R Mk.103 afterburning turbofans, 76.8 kN each",
+      "armament": "2× 27mm Mauser BK-27 cannon; up to 9,000 kg ordnance including Storm Shadow, Brimstone, Paveway"
+    },
+    "funFact": "The Tornado was the first European combat aircraft designed from the outset for the specific mission of low-level supersonic penetration at night and in all weather — flying below radar cover at treetop height to strike Soviet airfields.",
+    "blurb": "The Panavia Tornado was a landmark multinational European programme developed jointly by the UK, Germany, and Italy, combining a swing-wing design with the ability to sprint at Mach 2.2 or cruise efficiently at low level. It served as the backbone of NATO strike forces from the Gulf War through to its retirement by the RAF in 2019, constantly updated with precision weapons including Storm Shadow cruise missiles.",
+    "images": [
+      "assets/img/panavia-tornado-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 47,
+    "name": "MiG-31 Foxhound",
+    "manufacturer": "Mikoyan",
+    "country": "USSR/Russia",
+    "roles": [
+      "Interceptor"
+    ],
+    "generation": "4th gen",
+    "era": "Cold War",
+    "yearIntroduced": 1981,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": [
+      "Cold War",
+      "Russo-Ukrainian War"
+    ],
+    "specs": {
+      "wingspan_m": 13.46,
+      "weight_kg": 21820,
+      "occupants": 2,
+      "maxSpeed_kmh": 3000,
+      "range_km": 2200,
+      "ceiling_m": 20600,
+      "powerplant": "2× Aviadvigatel D-30F6 afterburning turbofans, 151.9 kN each with afterburner",
+      "armament": "1× 23mm GSh-6-23 rotary cannon; 4× R-33 long-range AAMs, 2× R-40T, 4× R-60M missiles"
+    },
+    "funFact": "The MiG-31's Zaslon phased-array radar was the world's first electronically scanned array radar fitted to a production fighter aircraft, capable of tracking 10 targets simultaneously and engaging four — a capability not matched by Western fighters for another decade.",
+    "blurb": "The Mikoyan MiG-31 Foxhound is one of the fastest operational combat aircraft ever built, combining MiG-25 Mach 3 speed with genuine beyond-visual-range combat capability as a dedicated long-range interceptor. Designed to hunt cruise missiles and low-flying bombers across the vast expanse of Soviet airspace, it carries the massive R-33 missile with a 120 km range and remains in Russian service as a carrier for the Kinzhal hypersonic missile.",
+    "images": [
+      "assets/img/mig-31-foxhound-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 48,
+    "name": "F/A-18 Hornet",
+    "manufacturer": "McDonnell Douglas",
+    "country": "USA",
+    "roles": [
+      "Multirole"
+    ],
+    "generation": "4th gen",
+    "era": "Cold War",
+    "yearIntroduced": 1983,
+    "yearDiscontinued": 2023,
+    "status": "Retired",
+    "notableConflicts": [
+      "Gulf War",
+      "Operation Iraqi Freedom",
+      "Operation Enduring Freedom"
+    ],
+    "specs": {
+      "wingspan_m": 11.43,
+      "weight_kg": 10455,
+      "occupants": 1,
+      "maxSpeed_kmh": 1814,
+      "range_km": 1065,
+      "ceiling_m": 15240,
+      "powerplant": "2× General Electric F404-GE-402 afterburning turbofans, 79.0 kN each",
+      "armament": "1× 20mm M61A1 Vulcan cannon, AIM-9, AIM-7, AIM-120, AGM-65, JDAM, and other stores"
+    },
+    "funFact": "The F/A-18 Hornet was the first aircraft to transition directly from an air-to-air engagement to an air-to-ground strike mission in a single sortie during the Gulf War, cementing its 'F/A' (Fighter/Attack) designation.",
+    "blurb": "The McDonnell Douglas F/A-18 Hornet was the US Navy and Marine Corps' workhorse multirole aircraft for four decades. Derived from the YF-17 lightweight fighter prototype, it proved remarkably adaptable, serving as the mount for the Blue Angels demonstration team and seeing combat in every major US conflict from Panama to Afghanistan.",
+    "images": [
+      "assets/img/f-a-18-hornet-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 49,
+    "name": "MiG-29 Fulcrum",
+    "manufacturer": "Mikoyan",
+    "country": "USSR/Russia",
+    "roles": [
+      "Air Superiority",
+      "Fighter"
+    ],
+    "generation": "4th gen",
+    "era": "Cold War",
+    "yearIntroduced": 1983,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": [
+      "Gulf War",
+      "Kosovo War",
+      "Russo-Georgian War",
+      "Russo-Ukrainian War"
+    ],
+    "specs": {
+      "wingspan_m": 11.4,
+      "weight_kg": 11000,
+      "occupants": 1,
+      "maxSpeed_kmh": 2400,
+      "range_km": 1500,
+      "ceiling_m": 18013,
+      "powerplant": "2× Klimov RD-33 afterburning turbofans, 81.4 kN each with afterburner",
+      "armament": "1× 30mm GSh-30-1 cannon; R-27, R-60, R-73 missiles on 7 hardpoints"
+    },
+    "funFact": "The MiG-29 introduced the IRST (infrared search and track) system and helmet-mounted sight that allowed pilots to fire missiles at targets 45° off the nose by simply looking at them — a capability that took the West a decade to match.",
+    "blurb": "The Mikoyan MiG-29 'Fulcrum' was the Soviet answer to the F-16 and F/A-18, a lightweight air superiority fighter designed to contest control of the battlefield airspace over the front lines. Its combination of twin powerful engines, exceptional agility, and advanced off-boresight missile capability made it one of the most formidable dogfighters of the 1980s, and it continues to serve in over 25 air forces today.",
+    "images": [
+      "assets/img/mig-29-fulcrum-1.jpg"
+    ]
   },
   {
     "dexNo": 50,
+    "name": "Dassault Mirage 2000",
+    "manufacturer": "Dassault Aviation",
+    "country": "France",
+    "roles": [
+      "Multirole",
+      "Interceptor"
+    ],
+    "generation": "4th gen",
+    "era": "Cold War",
+    "yearIntroduced": 1984,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": [
+      "Gulf War",
+      "Kargil War",
+      "Kosovo War",
+      "Operation Harmattan"
+    ],
+    "specs": {
+      "wingspan_m": 9.13,
+      "weight_kg": 7500,
+      "occupants": 1,
+      "maxSpeed_kmh": 2530,
+      "range_km": 1550,
+      "ceiling_m": 17060,
+      "powerplant": "1× SNECMA M53-P2 afterburning turbofan, 95.1 kN thrust",
+      "armament": "2× 30mm DEFA 554 cannon; Magic 2, MICA, Super 530D missiles on 9 hardpoints"
+    },
+    "funFact": "During the 1999 Kargil War, Indian Air Force Mirage 2000Hs destroyed Pakistani bunkers and supply depots at over 5,000 m altitude using laser-guided bombs — the first precision strikes by an Indian aircraft in high-altitude mountain warfare — with a reported near-100% target destruction rate.",
+    "blurb": "The Dassault Mirage 2000 revived the classic delta-wing formula of the Mirage III but combined it with fly-by-wire controls, a modern turbo-fan engine, and a pulse-Doppler radar to produce a genuine fourth-generation multi-role fighter. Operated by nine nations, it has proven itself in combat from Kosovo to Libya and remains a potent front-line aircraft in the Indian, Greek, and UAE air forces.",
+    "images": [
+      "assets/img/dassault-mirage-2000-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 51,
+    "name": "Su-27 Flanker",
+    "manufacturer": "Sukhoi",
+    "country": "USSR/Russia",
+    "roles": [
+      "Air Superiority",
+      "Fighter"
+    ],
+    "generation": "4th gen",
+    "era": "Cold War",
+    "yearIntroduced": 1985,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": [
+      "Ethiopian–Eritrean War",
+      "Russo-Georgian War",
+      "Syrian Civil War",
+      "Russo-Ukrainian War"
+    ],
+    "specs": {
+      "wingspan_m": 14.7,
+      "weight_kg": 16870,
+      "occupants": 1,
+      "maxSpeed_kmh": 2500,
+      "range_km": 3530,
+      "ceiling_m": 18500,
+      "powerplant": "2× Saturn AL-31F afterburning turbofans, 122.6 kN each with afterburner",
+      "armament": "1× 30mm GSh-30-1 cannon; R-27, R-60, R-73 missiles on 10 hardpoints (up to 6,000 kg)"
+    },
+    "funFact": "The Su-27 can perform the 'Pugachev's Cobra' — a dramatic manoeuvre in which the aircraft momentarily pitches to nearly 120° angle of attack before recovering, demonstrating extraordinary aerodynamic stability that no Western fighter of its era could replicate.",
+    "blurb": "The Sukhoi Su-27 Flanker is one of the greatest air superiority fighters ever built, designed specifically to counter the F-15 Eagle and possessing comparable or superior performance in most metrics. Its combination of exceptional range, 10 missile hardpoints, powerful engines, and supermaneuverability made it the cornerstone of Soviet and Russian air defence, spawning an enormous family of derivatives that remains central to Russian air power today.",
+    "images": [
+      "assets/img/su-27-flanker-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 52,
     "name": "Mitsubishi F-2",
     "manufacturer": "Mitsubishi Heavy Industries / Lockheed Martin",
     "country": "Japan",
-    "roles": ["Multirole"],
+    "roles": [
+      "Multirole"
+    ],
     "generation": "4th gen",
     "era": "Modern",
     "yearIntroduced": 2000,
@@ -1297,152 +1766,33 @@
     },
     "funFact": "The F-2 features the world's first active electronically scanned array (AESA) radar fitted to a production fighter — the Mitsubishi Electric J/APG-1 — making it a pioneer in what would become the standard radar technology for modern combat aircraft.",
     "blurb": "The Mitsubishi F-2, developed jointly by Japan and the United States as a derivative of the F-16, features a 25% larger wing area and was the first production fighter to carry an AESA radar. Built primarily for the anti-ship strike mission to defend Japan's surrounding seas, it represents a major Japanese industrial achievement in aerospace and electronics, with 60% of production handled domestically.",
-    "images": ["assets/img/mitsubishi-f-2-1.jpg"]
-  },
-  {
-    "dexNo": 51,
-    "name": "Dewoitine D.520",
-    "manufacturer": "Dewoitine",
-    "country": "France",
-    "roles": ["Fighter"],
-    "generation": "WWII",
-    "era": "WWII",
-    "yearIntroduced": 1940,
-    "yearDiscontinued": 1953,
-    "status": "Retired",
-    "notableConflicts": ["World War II", "Battle of France", "Syrian Campaign"],
-    "specs": {
-      "wingspan_m": 10.20,
-      "weight_kg": 2092,
-      "occupants": 1,
-      "maxSpeed_kmh": 535,
-      "range_km": 1540,
-      "ceiling_m": 11000,
-      "powerplant": "1× Hispano-Suiza 12Y-45 V-12 liquid-cooled, 935 hp",
-      "armament": "1× 20mm Hispano-Suiza HS.404 cannon, 4× 7.5mm MAC 1934 machine guns"
-    },
-    "funFact": "The Dewoitine D.520 was France's best fighter when Germany invaded in May 1940, and French pilots flying it achieved a 2:1 kill ratio against the Luftwaffe — but fewer than 80 were operational when the campaign began, making it too little too late to change the outcome.",
-    "blurb": "The Dewoitine D.520 was the finest French fighter of World War II and one of the best European fighters of 1940, combining elegant handling with a potent 20mm cannon — a gun-through-the-propeller arrangement years ahead of most contemporaries. Arriving just weeks before France's fall, it fought on under Vichy France and the Free French, serving in some of the most complex loyalties of the entire war.",
-    "images": ["assets/img/dewoitine-d-520-1.jpg"]
-  },
-  {
-    "dexNo": 52,
-    "name": "Dassault Mystère IV",
-    "manufacturer": "Dassault Aviation",
-    "country": "France",
-    "roles": ["Fighter", "Ground Attack"],
-    "generation": "2nd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1955,
-    "yearDiscontinued": 1982,
-    "status": "Retired",
-    "notableConflicts": ["Suez Crisis", "Six-Day War", "Indo-Pakistani War of 1965"],
-    "specs": {
-      "wingspan_m": 11.10,
-      "weight_kg": 5875,
-      "occupants": 1,
-      "maxSpeed_kmh": 1120,
-      "range_km": 1250,
-      "ceiling_m": 15000,
-      "powerplant": "1× Hispano-Suiza Tay 250A turbojet (licence-built Rolls-Royce Tay), 34.0 kN thrust",
-      "armament": "2× 30mm DEFA cannon; rockets, bombs, or Matra air-to-air missiles on 4 hardpoints"
-    },
-    "funFact": "During the 1965 Indo-Pakistani War, Indian Air Force Mystère IVs destroyed Pakistani Patton tanks near Chhamb in some of the most effective close air support sorties in post-war history, demonstrating that a swept-wing jet fighter could be devastatingly effective in the ground-attack role.",
-    "blurb": "The Dassault Mystère IV was France's first truly supersonic-capable swept-wing fighter, entering service in 1955 and giving the French Air Force a modern jet combat capability. Exported to India and Israel, it saw extensive combat in the Suez Crisis and Indo-Pakistani War of 1965, where Israeli and Indian pilots proved its potency in both air-to-air and ground-attack roles.",
-    "images": ["assets/img/dassault-mystere-iv-1.jpg"]
+    "images": [
+      "assets/img/mitsubishi-f-2-1.jpg"
+    ]
   },
   {
     "dexNo": 53,
-    "name": "Dassault Mirage III",
-    "manufacturer": "Dassault Aviation",
-    "country": "France",
-    "roles": ["Interceptor", "Fighter"],
-    "generation": "2nd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1961,
-    "yearDiscontinued": 1988,
-    "status": "Retired",
-    "notableConflicts": ["Six-Day War", "Yom Kippur War", "Falklands War", "Indo-Pakistani War of 1971"],
-    "specs": {
-      "wingspan_m": 8.22,
-      "weight_kg": 7050,
-      "occupants": 1,
-      "maxSpeed_kmh": 2350,
-      "range_km": 1200,
-      "ceiling_m": 17000,
-      "powerplant": "1× SNECMA Atar 9C afterburning turbojet, 60.8 kN thrust",
-      "armament": "2× 30mm DEFA 552 cannon; Matra R.530, AIM-9 Sidewinder, bombs, rockets on 5 hardpoints"
-    },
-    "funFact": "During the Six-Day War of 1967, Israeli Air Force Mirage IIICs destroyed over 400 Arab aircraft — mostly on the ground — in the opening hours of the conflict, one of the most decisive uses of airpower in history, establishing the Mirage III as the dominant Middle Eastern fighter of its era.",
-    "blurb": "The Dassault Mirage III was France's iconic tailless delta-wing interceptor, the aircraft that established Dassault's reputation for innovative design and made France a major independent player in the global fighter market. Its Mach 2.2 performance and simple yet elegant delta wing were exported to 20 countries and saw extensive combat in the Middle East, South America, and South Asia over three decades.",
-    "images": ["assets/img/dassault-mirage-iii-1.jpg"]
-  },
-  {
-    "dexNo": 54,
-    "name": "Dassault Mirage F1",
-    "manufacturer": "Dassault Aviation",
-    "country": "France",
-    "roles": ["Interceptor", "Multirole"],
-    "generation": "3rd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1973,
-    "yearDiscontinued": 2014,
-    "status": "Retired",
-    "notableConflicts": ["Iran–Iraq War", "Gulf War", "Operation Daguet", "Libyan Civil War"],
-    "specs": {
-      "wingspan_m": 8.40,
-      "weight_kg": 7400,
-      "occupants": 1,
-      "maxSpeed_kmh": 2335,
-      "range_km": 1400,
-      "ceiling_m": 20000,
-      "powerplant": "1× SNECMA Atar 9K-50 afterburning turbojet, 70.6 kN thrust",
-      "armament": "2× 30mm DEFA 553 cannon; Super 530, Magic, AIM-9, bombs, rockets on 7 hardpoints"
-    },
-    "funFact": "The Mirage F1's conventional swept-wing layout — a departure from Dassault's signature delta — gave it 40% more range and 80% more low-speed endurance than the Mirage III it replaced, while retaining supersonic performance, making it one of the most exported French combat aircraft with 730 built for 12 nations.",
-    "blurb": "The Dassault Mirage F1 replaced the iconic Mirage III with a conventional swept-wing and tailplane layout that dramatically improved practical range, low-altitude handling, and take-off performance without sacrificing supersonic performance. Exported widely and combat-proven in numerous conflicts from the Iran-Iraq War to the Gulf War, it became France's most important fighter of the 1970s and 80s.",
-    "images": ["assets/img/dassault-mirage-f1-1.jpg"]
-  },
-  {
-    "dexNo": 55,
-    "name": "Dassault Mirage 2000",
-    "manufacturer": "Dassault Aviation",
-    "country": "France",
-    "roles": ["Multirole", "Interceptor"],
-    "generation": "4th gen",
-    "era": "Cold War",
-    "yearIntroduced": 1984,
-    "yearDiscontinued": null,
-    "status": "In service",
-    "notableConflicts": ["Gulf War", "Kargil War", "Kosovo War", "Operation Harmattan"],
-    "specs": {
-      "wingspan_m": 9.13,
-      "weight_kg": 7500,
-      "occupants": 1,
-      "maxSpeed_kmh": 2530,
-      "range_km": 1550,
-      "ceiling_m": 17060,
-      "powerplant": "1× SNECMA M53-P2 afterburning turbofan, 95.1 kN thrust",
-      "armament": "2× 30mm DEFA 554 cannon; Magic 2, MICA, Super 530D missiles on 9 hardpoints"
-    },
-    "funFact": "During the 1999 Kargil War, Indian Air Force Mirage 2000Hs destroyed Pakistani bunkers and supply depots at over 5,000 m altitude using laser-guided bombs — the first precision strikes by an Indian aircraft in high-altitude mountain warfare — with a reported near-100% target destruction rate.",
-    "blurb": "The Dassault Mirage 2000 revived the classic delta-wing formula of the Mirage III but combined it with fly-by-wire controls, a modern turbo-fan engine, and a pulse-Doppler radar to produce a genuine fourth-generation multi-role fighter. Operated by nine nations, it has proven itself in combat from Kosovo to Libya and remains a potent front-line aircraft in the Indian, Greek, and UAE air forces.",
-    "images": ["assets/img/dassault-mirage-2000-1.jpg"]
-  },
-  {
-    "dexNo": 56,
     "name": "Dassault Rafale",
     "manufacturer": "Dassault Aviation",
     "country": "France",
-    "roles": ["Multirole", "Air Superiority"],
+    "roles": [
+      "Multirole",
+      "Air Superiority"
+    ],
     "generation": "4.5 gen",
     "era": "Modern",
     "yearIntroduced": 2001,
     "yearDiscontinued": null,
     "status": "In service",
-    "notableConflicts": ["Afghanistan", "Libya", "Mali", "Syria", "Ukraine aid missions"],
+    "notableConflicts": [
+      "Afghanistan",
+      "Libya",
+      "Mali",
+      "Syria",
+      "Ukraine aid missions"
+    ],
     "specs": {
-      "wingspan_m": 10.90,
+      "wingspan_m": 10.9,
       "weight_kg": 9850,
       "occupants": 1,
       "maxSpeed_kmh": 1912,
@@ -1453,32 +1803,141 @@
     },
     "funFact": "After years of failed export attempts, the Rafale became one of the world's fastest-selling fighter aircraft in the 2020s, securing contracts with Egypt, Qatar, Greece, India, Indonesia, and Croatia — transforming from 'the aircraft nobody wanted' into a global export success story.",
     "blurb": "The Dassault Rafale is France's omnirole fighter, designed to replace virtually every combat aircraft in the French arsenal with a single type capable of nuclear strike, fleet defense, close air support, reconnaissance, and anti-ship attack. Its canard-delta aerodynamics, AESA radar, and SPECTRA electronic warfare suite make it one of the most capable combat aircraft in service, and its export success in the 2020s has cemented France's position as a leading independent fighter manufacturer.",
-    "images": ["assets/img/dassault-rafale-1.jpg"]
+    "images": [
+      "assets/img/dassault-rafale-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 54,
+    "name": "Eurofighter Typhoon",
+    "manufacturer": "Eurofighter GmbH (UK/Germany/Italy/Spain)",
+    "country": "UK",
+    "roles": [
+      "Multirole",
+      "Air Superiority"
+    ],
+    "generation": "4.5 gen",
+    "era": "Modern",
+    "yearIntroduced": 2003,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": [
+      "Operation Ellamy (Libya)",
+      "Operation Shader"
+    ],
+    "specs": {
+      "wingspan_m": 10.95,
+      "weight_kg": 10995,
+      "occupants": 1,
+      "maxSpeed_kmh": 2125,
+      "range_km": 2900,
+      "ceiling_m": 19812,
+      "powerplant": "2× Eurojet EJ200 afterburning turbofans, 90.0 kN each",
+      "armament": "1× 27mm Mauser BK-27 cannon; AMRAAM, ASRAAM, Meteor, Brimstone, Paveway IV on 13 hardpoints"
+    },
+    "funFact": "The Typhoon can supercruise at up to Mach 1.5 without afterburner, and in a 2008 exercise it defeated the F-22 Raptor in simulated close-range combat — though the F-22's designers argued beyond-visual-range would tell a different story.",
+    "blurb": "The Eurofighter Typhoon is a collaborative 4.5-generation air superiority and multirole fighter built by a four-nation consortium (UK, Germany, Italy, and Spain), combining canard-delta aerodynamics with fly-by-wire instability for extreme agility. Operated by the RAF, Luftwaffe, and eight other air forces, it bridges the gap between Cold War fighters and fifth-generation stealth designs.",
+    "images": [
+      "assets/img/eurofighter-typhoon-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 55,
+    "name": "F-22 Raptor",
+    "manufacturer": "Lockheed Martin",
+    "country": "USA",
+    "roles": [
+      "Air Superiority",
+      "Fighter"
+    ],
+    "generation": "5th gen",
+    "era": "Modern",
+    "yearIntroduced": 2005,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": [
+      "Operation Inherent Resolve"
+    ],
+    "specs": {
+      "wingspan_m": 13.56,
+      "weight_kg": 19700,
+      "occupants": 1,
+      "maxSpeed_kmh": 1960,
+      "range_km": 2960,
+      "ceiling_m": 19812,
+      "powerplant": "2× Pratt & Whitney F119-PW-100 afterburning turbofans, 156 kN each",
+      "armament": "1× 20mm M61A2 Vulcan cannon, AIM-9X Sidewinder, AIM-120 AMRAAM (internal bays)"
+    },
+    "funFact": "The F-22 can supercruise — sustain supersonic flight without afterburner — at Mach 1.82, a capability that allows it to engage and disengage from combat on its own terms, something no previous fighter could do.",
+    "blurb": "The Lockheed Martin F-22 Raptor is the world's first operational fifth-generation stealth air superiority fighter, combining stealth, supercruise, thrust vectoring, and advanced avionics in a way that no adversary can currently match. Only 187 were built due to cost, making it one of the most expensive fighters ever produced.",
+    "images": [
+      "assets/img/f-22-raptor-1.jpg"
+    ]
+  },
+  {
+    "dexNo": 56,
+    "name": "F-35 Lightning II",
+    "manufacturer": "Lockheed Martin",
+    "country": "USA",
+    "roles": [
+      "Multirole"
+    ],
+    "generation": "5th gen",
+    "era": "Modern",
+    "yearIntroduced": 2015,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": [
+      "Operation Inherent Resolve"
+    ],
+    "specs": {
+      "wingspan_m": 10.67,
+      "weight_kg": 13154,
+      "occupants": 1,
+      "maxSpeed_kmh": 1960,
+      "range_km": 2220,
+      "ceiling_m": 15240,
+      "powerplant": "1× Pratt & Whitney F135-PW-100 afterburning turbofan, 191 kN thrust",
+      "armament": "1× 25mm GAU-22/A rotary cannon (F-35A, internal), AIM-9X, AIM-120, JDAM (internal and external hardpoints)"
+    },
+    "funFact": "The F-35 program is the most expensive weapons system in history, with a projected lifetime cost exceeding $1.7 trillion. The F-35B variant can perform short takeoffs and vertical landings (STOVL), a rare combination at supersonic speeds.",
+    "blurb": "The Lockheed Martin F-35 Lightning II is a family of stealth multirole fighters developed to replace a wide variety of legacy aircraft across the US military and allied nations. Its sensor fusion, stealth, and networking capabilities give it unprecedented situational awareness, making it as much an airborne command node as a fighter.",
+    "images": [
+      "assets/img/f-35-lightning-ii-1.jpg"
+    ]
   },
   {
     "dexNo": 57,
-    "name": "Dassault Super Étendard",
-    "manufacturer": "Dassault Aviation",
-    "country": "France",
-    "roles": ["Attack", "Multirole"],
-    "generation": "3rd gen",
-    "era": "Cold War",
-    "yearIntroduced": 1978,
-    "yearDiscontinued": 2016,
-    "status": "Retired",
-    "notableConflicts": ["Falklands War", "Iran–Iraq War", "Gulf War", "Kosovo War", "Afghanistan"],
+    "name": "Su-57 Felon",
+    "manufacturer": "Sukhoi",
+    "country": "USSR/Russia",
+    "roles": [
+      "Air Superiority",
+      "Multirole"
+    ],
+    "generation": "5th gen",
+    "era": "Modern",
+    "yearIntroduced": 2020,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": [
+      "Syrian Civil War",
+      "Russo-Ukrainian War"
+    ],
     "specs": {
-      "wingspan_m": 9.60,
-      "weight_kg": 6500,
+      "wingspan_m": 14.1,
+      "weight_kg": 18500,
       "occupants": 1,
-      "maxSpeed_kmh": 1205,
-      "range_km": 850,
-      "ceiling_m": 13700,
-      "powerplant": "1× SNECMA Atar 8K-50 non-afterburning turbojet, 49.0 kN thrust",
-      "armament": "2× 30mm DEFA 553 cannon; 1× AM39 Exocet anti-ship missile, bombs, rockets on 5 hardpoints"
+      "maxSpeed_kmh": 2135,
+      "range_km": 3500,
+      "ceiling_m": 20000,
+      "powerplant": "2× Saturn AL-41F1 afterburning turbofans, 147.1 kN each with afterburner",
+      "armament": "1× 30mm GSh-30-1 cannon; R-77M, R-74M2, Kh-38M, Kh-59MK2 on 12 hardpoints (6 internal, 6 external)"
     },
-    "funFact": "During the 1982 Falklands War, Argentine Navy Super Étendards launched two AM39 Exocet missiles that sank HMS Sheffield and the container ship Atlantic Conveyor, demonstrating for the first time the devastating potential of sea-skimming anti-ship missiles against modern warships and changing naval warfare doctrine worldwide.",
-    "blurb": "The Dassault Super Étendard was France's carrier-borne strike aircraft, best remembered for the catastrophic impact of its Exocet missile attacks during the Falklands War, which sank two ships and shocked the world with the effectiveness of modern anti-ship missiles. Operated by both the French Navy and Argentina, it also delivered the first operational use of the ASMP nuclear stand-off missile for France's airborne nuclear deterrent.",
-    "images": ["assets/img/dassault-super-etendard-1.jpg"]
+    "funFact": "The Su-57 is capable of supercruise at Mach 1.3 without afterburner and features a unique three-dimensional thrust-vectoring system on both engines, giving it a level of post-stall maneuverability that rivals — and in some regimes exceeds — the F-22 Raptor.",
+    "blurb": "The Sukhoi Su-57 Felon is Russia's first fifth-generation stealth multirole fighter, combining reduced radar cross-section, supercruise, thrust vectoring, and an internal weapons bay. Developed over two decades to compete with the F-22 and F-35, it entered limited service in 2020 and has seen combat in Ukraine, though production numbers remain modest compared to Western equivalents.",
+    "images": [
+      "assets/img/su-57-felon-1.jpg"
+    ]
   }
 ]
