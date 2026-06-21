@@ -12,3 +12,16 @@ python3 -m http.server 8000
 ```bash
 node --test
 ```
+
+## GitHub Pages
+
+The site is deployed at: **https://nachourieecs.github.io/Fighter-Aircraft-Throughout-History/**
+
+To enable (or re-enable) GitHub Pages:
+
+1. Go to the repository on GitHub.
+2. Navigate to **Settings → Pages**.
+3. Under **Source**, select the `main` branch and `/` (root) as the folder.
+4. Click **Save**.
+
+GitHub Actions will build and deploy automatically. The site should be live within a minute or two.

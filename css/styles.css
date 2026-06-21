@@ -36,3 +36,5 @@ body { margin:0; font-family: system-ui, sans-serif; color:var(--text); backgrou
 #search { padding:.4rem .7rem; border:1px solid #ccc; border-radius:8px; min-width:240px; }
 .count { color:#888; font-size:.85rem; margin-left:auto; }
 .empty { grid-column:1/-1; text-align:center; color:#888; padding:2rem; }
+@media (max-width:900px){ .grid{ grid-template-columns:repeat(auto-fill,minmax(160px,1fr)); } }
+@media (max-width:560px){ .grid{ grid-template-columns:repeat(2,1fr); } .toolbar{ gap:.5rem; } #search{ min-width:100%; } .count{ margin-left:0; } }

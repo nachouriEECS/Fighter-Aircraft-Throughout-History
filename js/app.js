@@ -10,7 +10,7 @@ export function cardHTML(a) {
   const role = a.roles[0];
   const img = a.images[0] || "";
   return `
-    <article class="card" data-dex="${a.dexNo}">
+    <article class="card" data-dex="${a.dexNo}" tabindex="0" role="button">
       <div class="card-img"><img loading="lazy" src="${img}" alt="${a.name}"
            onerror="this.classList.add('missing')" /></div>
       <div class="card-dex">${dexLabel(a.dexNo)}</div>
@@ -124,7 +124,7 @@ function renderFilters() {
   const wrap = document.getElementById("filters");
   wrap.innerHTML = FACETS.map(([stateKey, label, dataKey]) => {
     const chips = facetValues(ALL, dataKey).map(v =>
-      `<button class="chip" data-facet="${stateKey}" data-val="${v}">${v}</button>`).join("");
+      `<button class="chip" data-facet="${stateKey}" data-val="${v}" aria-pressed="false">${v}</button>`).join("");
     return `<div class="facet"><span class="facet-label">${label}</span>${chips}</div>`;
   }).join("");
   wrap.addEventListener("click", (e) => {
@@ -132,8 +132,8 @@ function renderFilters() {
     if (!chip) return;
     const set = state.filters[chip.dataset.facet];
     const v = chip.dataset.val;
-    if (set.has(v)) { set.delete(v); chip.classList.remove("active"); }
-    else { set.add(v); chip.classList.add("active"); }
+    if (set.has(v)) { set.delete(v); chip.classList.remove("active"); chip.setAttribute("aria-pressed", "false"); }
+    else { set.add(v); chip.classList.add("active"); chip.setAttribute("aria-pressed", "true"); }
     update();
   });
 }
@@ -150,6 +150,13 @@ function attachGridHandler() {
     if (!card) return;
     if (card.classList.contains("open")) closeDetail();
     else openDetail(card);
+  });
+  document.getElementById("grid").addEventListener("keydown", (e) => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const card = e.target.closest(".card");
+    if (!card) return;
+    e.preventDefault();
+    card.classList.contains("open") ? closeDetail() : openDetail(card);
   });
 }
 
