@@ -13,3 +13,16 @@ body { margin:0; font-family: system-ui, sans-serif; color:var(--text); backgrou
 .card-name { font-size:1.25rem; margin:.1rem 0 .4rem; }
 .card-badges { display:flex; gap:.4rem; flex-wrap:wrap; }
 .badge { color:#fff; font-size:.8rem; padding:.2rem .6rem; border-radius:999px; }
+.detail { grid-column:1 / -1; position:relative; background:#fafafa; border:1px solid #e3e3e3; border-radius:14px; padding:1.25rem 1.5rem; margin:.25rem 0 1rem; }
+.detail-close { position:absolute; top:.75rem; right:.75rem; border:none; background:#e3e3e3; border-radius:999px; width:2rem; height:2rem; cursor:pointer; font-size:1rem; }
+.detail-badges { display:flex; gap:.4rem; flex-wrap:wrap; margin-bottom:.4rem; }
+.badge-meta { background:#666; }
+.detail-gallery { display:flex; gap:.6rem; overflow-x:auto; padding:.5rem 0; }
+.detail-gallery img { height:180px; border-radius:10px; object-fit:cover; }
+.detail-grid { display:grid; grid-template-columns:1fr 1fr; gap:1.5rem; }
+.specs { display:grid; grid-template-columns:auto 1fr; gap:.25rem .75rem; margin:0; }
+.specs dt { font-weight:600; color:#555; }
+.specs dd { margin:0; }
+.funfact { margin-top:.75rem; background:#fff7d6; border-left:4px solid #f1c40f; padding:.6rem .8rem; border-radius:6px; }
+.card.open { outline:3px solid #2980b9; }
+@media (max-width:640px){ .detail-grid{ grid-template-columns:1fr; } }
