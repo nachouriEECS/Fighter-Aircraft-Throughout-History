@@ -1,0 +1,80 @@
+[
+  {
+    "dexNo": 1,
+    "name": "Supermarine Spitfire",
+    "manufacturer": "Supermarine",
+    "country": "UK",
+    "roles": ["Fighter"],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1938,
+    "yearDiscontinued": 1955,
+    "status": "Retired",
+    "notableConflicts": ["World War II", "Battle of Britain"],
+    "specs": {
+      "wingspan_m": 11.23,
+      "weight_kg": 2309,
+      "occupants": 1,
+      "maxSpeed_kmh": 595,
+      "range_km": 991,
+      "ceiling_m": 11125,
+      "powerplant": "1× Rolls-Royce Merlin V12",
+      "armament": "8× .303 Browning machine guns"
+    },
+    "funFact": "Over 20,000 Spitfires were built, and it was the only British fighter produced continuously throughout WWII.",
+    "blurb": "The iconic British single-seat fighter whose elliptical wing and Merlin engine made it a symbol of the Battle of Britain.",
+    "images": ["assets/img/spitfire-1.jpg"]
+  },
+  {
+    "dexNo": 2,
+    "name": "Messerschmitt Bf 109",
+    "manufacturer": "Messerschmitt",
+    "country": "Germany",
+    "roles": ["Fighter"],
+    "generation": "WWII",
+    "era": "WWII",
+    "yearIntroduced": 1937,
+    "yearDiscontinued": 1958,
+    "status": "Retired",
+    "notableConflicts": ["World War II", "Spanish Civil War"],
+    "specs": {
+      "wingspan_m": 9.92,
+      "weight_kg": 2247,
+      "occupants": 1,
+      "maxSpeed_kmh": 640,
+      "range_km": 850,
+      "ceiling_m": 12000,
+      "powerplant": "1× Daimler-Benz DB 605 V12",
+      "armament": "2× 13mm MG 131, 1× 20mm/30mm cannon"
+    },
+    "funFact": "With nearly 34,000 built, it is the most-produced fighter aircraft in history.",
+    "blurb": "Germany's principal fighter of WWII, flown by the highest-scoring aces in aviation history.",
+    "images": ["assets/img/bf109-1.jpg"]
+  },
+  {
+    "dexNo": 3,
+    "name": "F-15 Eagle",
+    "manufacturer": "McDonnell Douglas",
+    "country": "USA",
+    "roles": ["Air Superiority", "Fighter"],
+    "generation": "4th gen",
+    "era": "Cold War",
+    "yearIntroduced": 1976,
+    "yearDiscontinued": null,
+    "status": "In service",
+    "notableConflicts": ["Gulf War", "Operation Iraqi Freedom"],
+    "specs": {
+      "wingspan_m": 13.05,
+      "weight_kg": 12700,
+      "occupants": 1,
+      "maxSpeed_kmh": 3017,
+      "range_km": 5550,
+      "ceiling_m": 20000,
+      "powerplant": "2× Pratt & Whitney F100 turbofans",
+      "armament": "20mm M61 Vulcan, AIM-9, AIM-120"
+    },
+    "funFact": "The F-15 has an air-to-air combat record of over 100 victories with zero losses.",
+    "blurb": "A twin-engine all-weather air-superiority fighter designed to gain and maintain control of the skies.",
+    "images": ["assets/img/f15-1.jpg"]
+  }
+]

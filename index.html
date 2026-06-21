@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fighter Aircraft Throughout History</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Fighter Aircraft Throughout History</h1>
+    <p class="tagline">A field guide to iconic combat aircraft since the 1930s</p>
+  </header>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Search name or manufacturer…" />
+    <div id="filters" class="filters"></div>
+    <label class="sort-label">Sort:
+      <select id="sort">
+        <option value="dexNo">Dex №</option>
+        <option value="yearIntroduced">Year</option>
+        <option value="country">Country</option>
+      </select>
+    </label>
+    <span id="count" class="count"></span>
+  </div>
+
+  <main id="grid" class="grid"></main>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

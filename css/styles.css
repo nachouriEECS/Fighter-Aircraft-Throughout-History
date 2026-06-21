@@ -1,0 +1,5 @@
+:root { --bg:#f5f5f5; --tile:#ececec; --text:#222; }
+* { box-sizing: border-box; }
+body { margin:0; font-family: system-ui, sans-serif; color:var(--text); background:#fff; }
+.site-header { padding:1.5rem 1rem .5rem; }
+.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(220px,1fr)); gap:1rem; padding:1rem; }
