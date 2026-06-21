@@ -90,7 +90,6 @@ function openDetail(card) {
   panel.className = "detail";
   panel.innerHTML = detailHTML(a);
   // insert after the end of the card's visual row
-  const grid = document.getElementById("grid");
   let next = card;
   const top = card.offsetTop;
   while (next.nextElementSibling && next.nextElementSibling.classList.contains("card")
