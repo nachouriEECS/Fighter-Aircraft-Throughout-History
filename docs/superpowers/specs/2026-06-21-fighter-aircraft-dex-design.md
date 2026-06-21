@@ -85,7 +85,7 @@ Array of objects. Example entry:
 - `notableConflicts`: array of strings, shown in the detail panel.
 - `weight_kg`: empty/loaded weight noted in `blurb` if relevant; store a single representative figure.
 - `occupants`: crew/seats (1 = single-seat, 2 = two-seat trainer/interceptor, etc.).
-- Units stored in **metric** in JSON; UI may show metric with imperial in parentheses (decided in plan).
+- Units stored in **metric** in JSON; UI shows **metric with imperial in parentheses** (e.g. `13.05 m (42.8 ft)`, `12,700 kg (28,000 lb)`, `3,017 km/h (1,875 mph)`).
 - Schema is extensible: e.g. `numberBuilt`, `length_m`, `topVariant` can be added later.
 
 ## 6. UI components
@@ -99,7 +99,7 @@ Array of objects. Example entry:
 
 ### 6.2 Accordion detail panel (inline expansion)
 - Clicking a card opens a **full-width panel below that card's row**, pushing the grid down.
-- Click the card again or the ✕ to collapse. Only one open at a time (configurable in plan).
+- Click the card again or the ✕ to collapse. **Only one panel open at a time** — opening a new one closes the previous.
 - On mobile, expands directly under the tapped card.
 - URL hash updates (e.g. `#f-15-eagle`) so entries are bookmarkable/shareable; loading a
   hash auto-opens that entry.
