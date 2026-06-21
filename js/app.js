@@ -10,7 +10,7 @@ export function cardHTML(a) {
   const role = a.roles[0];
   const img = a.images[0] || "";
   return `
-    <article class="card" data-dex="${a.dexNo}" tabindex="0" role="button">
+    <article class="card" data-dex="${a.dexNo}" tabindex="0" role="button" aria-expanded="false">
       <div class="card-img"><img loading="lazy" src="${img}" alt="${a.name}"
            onerror="this.classList.add('missing')" /></div>
       <div class="card-dex">${dexLabel(a.dexNo)}</div>
@@ -81,7 +81,7 @@ export function detailHTML(a) {
 
 function closeDetail() {
   document.querySelectorAll(".detail").forEach(d => d.remove());
-  document.querySelectorAll(".card.open").forEach(c => c.classList.remove("open"));
+  document.querySelectorAll(".card.open").forEach(c => { c.classList.remove("open"); c.setAttribute("aria-expanded", "false"); });
   history.replaceState(null, "", location.pathname);
 }
 
@@ -91,6 +91,7 @@ function openDetail(card) {
   if (!a) return;
   closeDetail();
   card.classList.add("open");
+  card.setAttribute("aria-expanded", "true");
   const panel = document.createElement("section");
   panel.className = "detail";
   panel.innerHTML = detailHTML(a);

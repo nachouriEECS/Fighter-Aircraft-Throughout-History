@@ -24,4 +24,4 @@ To enable (or re-enable) GitHub Pages:
 3. Under **Source**, select the `main` branch and `/` (root) as the folder.
 4. Click **Save**.
 
-GitHub Actions will build and deploy automatically. The site should be live within a minute or two.
+GitHub Pages serves the files directly from the branch root (no build step or Actions workflow needed). The site should be live within a minute or two.
