@@ -362,7 +362,7 @@ test("fmtLength shows metric and imperial", () => {
   assert.equal(fmtLength(13.05), "13.05 m (42.8 ft)");
 });
 test("fmtWeight formats with thousands separators", () => {
-  assert.equal(fmtWeight(12700), "12,700 kg (28,000 lb)");
+  assert.equal(fmtWeight(12700), "12,700 kg (27,999 lb)");
 });
 test("fmtSpeed converts km/h to mph", () => {
   assert.equal(fmtSpeed(3017), "3,017 km/h (1,875 mph)");
