@@ -35,3 +35,17 @@ test("facetValues for roles flattens and dedupes", () => {
   const v = facetValues(data, "roles");
   assert.deepEqual(v, ["Air Superiority", "Fighter"]);
 });
+test("facetValues respects explicit ordinal order", () => {
+  const eras = [
+    { era: "Cold War" }, { era: "Modern" }, { era: "WWII" },
+  ];
+  const v = facetValues(eras, "era", ["WWII", "Cold War", "Modern"]);
+  assert.deepEqual(v, ["WWII", "Cold War", "Modern"]);
+});
+test("facetValues sorts unordered values to the end alphabetically", () => {
+  const gens = [
+    { generation: "5th gen" }, { generation: "Zeppelin" }, { generation: "WWII" },
+  ];
+  const v = facetValues(gens, "generation", ["WWII", "5th gen"]);
+  assert.deepEqual(v, ["WWII", "5th gen", "Zeppelin"]);
+});

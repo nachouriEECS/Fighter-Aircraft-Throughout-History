@@ -82,7 +82,7 @@ export function detailHTML(a) {
 function closeDetail() {
   document.querySelectorAll(".detail").forEach(d => d.remove());
   document.querySelectorAll(".card.open").forEach(c => { c.classList.remove("open"); c.setAttribute("aria-expanded", "false"); });
-  history.replaceState(null, "", location.pathname);
+  if (location.hash) history.replaceState(null, "", location.pathname);
 }
 
 function openDetail(card) {
@@ -114,17 +114,21 @@ const state = {
   sort: "dexNo",
 };
 
+const GENERATION_ORDER = ["WWII", "1st gen", "2nd gen", "3rd gen", "4th gen", "4.5 gen", "5th gen"];
+const ERA_ORDER = ["WWII", "Cold War", "Modern"];
+
+// [stateKey, label, dataKey, order?] — order gives ordinal facets a chronological sort.
 const FACETS = [
   ["country", "Country", "country"],
   ["roles", "Role", "roles"],
-  ["generation", "Generation", "generation"],
-  ["era", "Era", "era"],
+  ["generation", "Generation", "generation", GENERATION_ORDER],
+  ["era", "Era", "era", ERA_ORDER],
 ];
 
 function renderFilters() {
   const wrap = document.getElementById("filters");
-  wrap.innerHTML = FACETS.map(([stateKey, label, dataKey]) => {
-    const chips = facetValues(ALL, dataKey).map(v =>
+  wrap.innerHTML = FACETS.map(([stateKey, label, dataKey, order]) => {
+    const chips = facetValues(ALL, dataKey, order).map(v =>
       `<button class="chip" data-facet="${stateKey}" data-val="${v}" aria-pressed="false">${v}</button>`).join("");
     return `<div class="facet"><span class="facet-label">${label}</span>${chips}</div>`;
   }).join("");
