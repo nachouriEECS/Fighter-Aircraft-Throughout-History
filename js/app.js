@@ -1,5 +1,6 @@
 import { dexLabel, fmtLength, fmtWeight, fmtSpeed, fmtRange, fmtAltitude } from "./format.js";
 import { roleColor, countryMeta } from "./badges.js";
+import { applyControls, facetValues } from "./filter.js";
 
 let ALL = [];
 let byDex = new Map();
@@ -23,8 +24,12 @@ export function cardHTML(a) {
 
 function renderGrid(list) {
   const grid = document.getElementById("grid");
-  grid.innerHTML = list.map(cardHTML).join("");
   document.getElementById("count").textContent = `${list.length} aircraft`;
+  if (list.length === 0) {
+    grid.innerHTML = `<p class="empty">No aircraft match your filters.</p>`;
+    return;
+  }
+  grid.innerHTML = list.map(cardHTML).join("");
 }
 
 export function slug(name) {
@@ -102,6 +107,43 @@ function openDetail(card) {
   panel.scrollIntoView({ behavior: "smooth", block: "nearest" });
 }
 
+const state = {
+  query: "",
+  filters: { country:new Set(), roles:new Set(), generation:new Set(), era:new Set() },
+  sort: "dexNo",
+};
+
+const FACETS = [
+  ["country", "Country", "country"],
+  ["roles", "Role", "roles"],
+  ["generation", "Generation", "generation"],
+  ["era", "Era", "era"],
+];
+
+function renderFilters() {
+  const wrap = document.getElementById("filters");
+  wrap.innerHTML = FACETS.map(([stateKey, label, dataKey]) => {
+    const chips = facetValues(ALL, dataKey).map(v =>
+      `<button class="chip" data-facet="${stateKey}" data-val="${v}">${v}</button>`).join("");
+    return `<div class="facet"><span class="facet-label">${label}</span>${chips}</div>`;
+  }).join("");
+  wrap.addEventListener("click", (e) => {
+    const chip = e.target.closest(".chip");
+    if (!chip) return;
+    const set = state.filters[chip.dataset.facet];
+    const v = chip.dataset.val;
+    if (set.has(v)) { set.delete(v); chip.classList.remove("active"); }
+    else { set.add(v); chip.classList.add("active"); }
+    update();
+  });
+}
+
+function update() {
+  closeDetail();
+  const list = applyControls(ALL, state);
+  renderGrid(list);
+}
+
 function attachGridHandler() {
   document.getElementById("grid").addEventListener("click", (e) => {
     const card = e.target.closest(".card");
@@ -127,6 +169,9 @@ async function main() {
   ALL.sort((a, b) => a.dexNo - b.dexNo);
   byDex = new Map(ALL.map(a => [a.dexNo, a]));
   renderGrid(ALL);
+  renderFilters();
+  document.getElementById("search").addEventListener("input", (e) => { state.query = e.target.value; update(); });
+  document.getElementById("sort").addEventListener("change", (e) => { state.sort = e.target.value; update(); });
   attachGridHandler();
   openFromHash();
 }
