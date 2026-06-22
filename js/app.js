@@ -45,14 +45,6 @@ export function detailHTML(a) {
   const roleBadges = a.roles.map(r =>
     `<span class="badge" style="background:${roleColor(r)}">${r}</span>`).join("");
   const conflicts = (a.notableConflicts || []).map(c => `<li>${c}</li>`).join("") || "<li>—</li>";
-  const viewer3d = a.model3d ? `
-    <div class="detail-view-toggle">
-      <button class="chip vtoggle active" data-view="3d" aria-pressed="true">🛩 3D Model</button>
-      <button class="chip vtoggle" data-view="photo" aria-pressed="false">📷 Photo</button>
-    </div>
-    <div class="detail-3d" data-3d-mount>
-      <span class="detail-3d-hint">drag to rotate · scroll to zoom</span>
-    </div>` : "";
   return `
     <button class="detail-close" aria-label="Close">✕</button>
     <div class="detail-head">
@@ -63,8 +55,7 @@ export function detailHTML(a) {
       </div>
       <h2>${dexLabel(a.dexNo)} — ${a.name}</h2>
     </div>
-    ${viewer3d}
-    <div class="detail-gallery${a.model3d ? " is-hidden" : ""}">${gallery}</div>
+    <div class="detail-gallery">${gallery}</div>
     <div class="detail-grid">
       <dl class="specs">
         <dt>Manufacturer</dt><dd>${a.manufacturer}</dd>
@@ -88,38 +79,7 @@ export function detailHTML(a) {
     </div>`;
 }
 
-let active3dCleanup = null;
-
-// Lazily load the Three.js viewer and mount it into the panel's 3D container,
-// wiring the 3D/Photo toggle. Falls back to the photo gallery if loading fails.
-async function setup3dViewer(panel) {
-  const mount = panel.querySelector("[data-3d-mount]");
-  const gallery = panel.querySelector(".detail-gallery");
-  const toggles = panel.querySelectorAll(".vtoggle");
-  toggles.forEach(btn => btn.addEventListener("click", () => {
-    const is3d = btn.dataset.view === "3d";
-    toggles.forEach(b => {
-      const on = b === btn;
-      b.classList.toggle("active", on);
-      b.setAttribute("aria-pressed", String(on));
-    });
-    mount.classList.toggle("is-hidden", !is3d);
-    gallery?.classList.toggle("is-hidden", is3d);
-  }));
-  try {
-    const { mountSpitfire } = await import("./spitfire3d.js");
-    if (!mount.isConnected) return;        // panel closed during import
-    active3dCleanup = mountSpitfire(mount);
-  } catch (err) {
-    console.warn("3D viewer unavailable, falling back to photo:", err);
-    panel.querySelector(".detail-view-toggle")?.remove();
-    mount?.remove();
-    gallery?.classList.remove("is-hidden");
-  }
-}
-
 function closeDetail() {
-  if (active3dCleanup) { try { active3dCleanup(); } catch (e) { /* noop */ } active3dCleanup = null; }
   document.querySelectorAll(".detail").forEach(d => d.remove());
   document.querySelectorAll(".card.open").forEach(c => { c.classList.remove("open"); c.setAttribute("aria-expanded", "false"); });
   if (location.hash) history.replaceState(null, "", location.pathname);
@@ -143,7 +103,6 @@ function openDetail(card) {
     next = next.nextElementSibling;
   }
   next.after(panel);
-  if (a.model3d) setup3dViewer(panel);
   panel.querySelector(".detail-close").addEventListener("click", (e) => { e.stopPropagation(); closeDetail(); });
   history.replaceState(null, "", `#${slug(a.name)}`);
   panel.scrollIntoView({ behavior: "smooth", block: "nearest" });

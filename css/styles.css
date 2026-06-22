@@ -181,27 +181,6 @@ body {
 }
 .detail-badges { display:flex; gap:.45rem; flex-wrap:wrap; margin-bottom:.5rem; }
 .badge-meta { background:var(--ink); }
-/* ---------- 3D viewer ---------- */
-.detail-view-toggle { display:flex; gap:.5rem; margin:.3rem 0 .6rem; }
-.vtoggle { cursor:pointer; }
-.detail-3d {
-  position:relative;
-  height:300px;
-  background:var(--sky);
-  border:3px solid var(--ink); border-radius:12px;
-  box-shadow:var(--shadow);
-  overflow:hidden;
-}
-.detail-3d.is-hidden { display:none; }
-.detail-3d-hint {
-  position:absolute; left:.6rem; bottom:.5rem; z-index:2;
-  font-family:var(--cond); font-weight:600; font-size:.72rem;
-  text-transform:uppercase; letter-spacing:.5px;
-  color:var(--ink); background:rgba(255,255,255,.78);
-  border:2px solid var(--ink); border-radius:999px;
-  padding:.15rem .55rem; pointer-events:none;
-}
-.detail-gallery.is-hidden { display:none; }
 .detail-gallery { display:flex; gap:.7rem; overflow-x:auto; padding:.5rem 0; }
 .detail-gallery img {
   height:200px; border:2.5px solid var(--ink); border-radius:10px;
