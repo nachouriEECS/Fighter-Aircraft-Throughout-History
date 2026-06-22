@@ -138,6 +138,7 @@
   {
     "dexNo": 5,
     "name": "Supermarine Spitfire",
+    "model3d": true,
     "manufacturer": "Supermarine",
     "country": "UK",
     "roles": [
